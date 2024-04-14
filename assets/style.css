@@ -101,6 +101,7 @@ hr {
     /* transition: opacity .6s ease; */
     border-radius: 50%;
 }
+
 .carousel-caption2 {
     position: absolute;
     /* right: 0%; */
@@ -111,6 +112,46 @@ hr {
     color: #fff;
     text-align: center;
 }
+
+
+/* appointment */
+.apt_head {
+    color: var(--Dark-Blue-Design, #011632);
+    /* font-family: "General Sans"; */
+    font-size: 39.272px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    /* 49.09px */
+    text-transform: capitalize;
+}
+
+.apt_desc {
+    color: var(--Body-text, #3C4959);
+    /* font-family: "General Sans"; */
+    font-size: 14.961px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+    /* 23.189px */
+    letter-spacing: 0.224px;
+}
+
+@media (min-width: 1200px) {
+    .form-control {
+        /* width: 387.113px; */
+        height: 56.103px;
+        flex-shrink: 0;
+    }
+    .apt_desc{
+    margin-bottom: 35px;
+    }
+    .apt_form{
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+}
+/* end */
 
 /*================================= About Page ================================= */
 .head_about {
