@@ -1,0 +1,79 @@
+
+/* header and footer styles */
+.nav_bar {
+    border-radius: 10px;
+    background: var(--Light-Blue-Design, #E6F6FE);
+    box-shadow: 0px 4px 1.9px 0px rgba(0, 0, 0, 0.05);
+}
+
+.nav_link {
+    font-size: 16px;
+    font-weight: 500;
+    color: #011632;
+}
+
+.nav_link_footer {
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+.footer_num {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.footer_address{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+hr{
+    height: 2px;
+    background: #011632;
+}
+
+@media (min-width: 992px) {
+    .nav_bar {
+        margin-top: 52px;
+        margin-right: 80px;
+        margin-left: 80px;
+    }
+
+    nav {
+        height: 90px;
+    }
+    .footer_get_2{
+        padding-left: 74px;
+    }
+
+    .footer_social{
+        justify-content: end;
+        margin-right: 60px;
+    }
+}
+
+@media (max-width: 992px) {
+    .footer_social{
+        justify-content: center;
+    }
+    .footer_get2{
+        margin-top: 30px;
+    }
+}
+
+
+.nav_btn {
+    display: flex;
+    /* width: 224px;
+    height: 61px;
+    padding: 18px 33px; */
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 62px;
+    background: linear-gradient(94deg, #2C3EE2 7.44%, #C6B1FA 126.52%, #7A69FE 126.53%);
+}
+
+/* end */
