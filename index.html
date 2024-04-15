@@ -62,19 +62,17 @@
         <div class="nav_bar">
             <nav class="navbar navbar-expand-lg d-none d-lg-block">
                 <div class="container-fluid">
-                    <img src="assets/images/nav_logo.png" alt="nav_logo" class="img-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                        aria-label="Toggle navigation">
+                    <a href="index.html"><img src="assets/images/nav_logo.png" alt="nav_logo" class="img-fluid"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse ms-5 row text-center" id="navbarNavAltMarkup">
                         <div class="navbar-nav col-lg-7 d-flex flex-row justify-content-between">
-                            <a class="nav-link nav_link active" aria-current="page" href="#">Home</a>
-                            <a class="nav-link nav_link" href="about.html">About Us</a>
-                            <a class="nav-link nav_link" href="#">Service</a>
-                            <a class="nav-link nav_link">Blog</a>
-                            <a class="nav-link nav_link">Contact</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link active" aria-current="page" href="index.html">Home</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="about.html">About Us</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="service.html">Service</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="blog.html">Blog</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="contact.html">Contact</a>
                         </div>
                         <div class="col-lg-2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
@@ -242,10 +240,6 @@
         <section>
             <div class="container p-5">
                 <div class="row">
-
-
-
-
                     <div class="owl-carousel  four_carsoe">
                         <div class="item">
                             <div class="card secomd_pot shadow">
@@ -508,15 +502,107 @@
  
 
         <!-- Meet our Doctors -->
-        <div class="container">
+        <div class="container mt-5">
             <h1 class="text-center meetourdoctors">Meet our Doctors</h1>
             <p class="text-center weuse">We use only the best quality materials on the market in <br> order to provide
                 the best products to our patients.</p>
         </div>
 
+        <section>
+            <div class="container p-5">
+                <div class="row">
+                    <div class="owl-carousel  four_carsoe">
+                        <div class="item">
+                            <div class="" style="background-color: transparent;">
+                                <div>
+                                    <img class=" img-fluid" src="assets/images/docter1.png" alt="Image 1">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="  ">
+                                <div>
+                                    <img class="img-fluid" src="assets/images/docter3.png" alt="Image 1">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="">
+                                <div>
+                                    <img class=" img-fluid" src="assets/images/docter2.png" alt="Image 1">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="">
+                                <div>
+                                    <img class="img-fluid" src="assets/images/docter4.png" alt="Image 1">
+                                  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="">
+                                <div>
+                                    <img class="img-fluid" src="assets/images/docter3.png" alt="Image 1">
+                                  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" ">
+                                <div>
+                                    <img class=" img-fluid" src="assets/images/docter5.png" alt="Image 1">
+                                   
+                                </div>
+                            </div>
+                        </div>
 
 
-        <div class="container">
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+
+        <script>
+            $(document).ready(function () {
+                var owl = $(".four_carsoe");
+                owl.owlCarousel({
+                    loop: true,
+                    margin: 10,
+                    autoplay: true,
+                    autoplayTimeout: 2000,
+                    autoplayHoverPause: true,
+                    responsiveClass: true,
+                    responsive: {
+                        0: {
+                            items: 1,
+                            nav: true
+                        },
+                        768: {
+                            items: 3,
+                            nav: false
+                        },
+                        992: {
+                            items: 4,
+                            nav: true
+                        }
+                    }
+                });
+
+                // Check if Owl Carousel has initialized
+                if (owl.hasClass('owl-loaded')) {
+                    console.log('Owl Carousel is initialized and should be looping.');
+                } else {
+                    console.log('Owl Carousel failed to initialize.');
+                }
+            });
+        </script>
+
+        <!-- <div class="container">
             <div class="wrapper">
                 <i id="left" class="fa-solid  fas fa-angle-left"></i>
                 <ul class="carousel">
@@ -558,11 +644,11 @@
                     </li>
                     </li>
                 </ul>
-                <i id="right" class="fa-solid fas fa-angle-right" style="bac"></i>
+                <i id="right" class="fa-solid fas fa-angle-right" style=""></i>
             </div>
         </div>
         <br>
-        <br>
+        <br> -->
 
 
 
@@ -658,12 +744,120 @@
                 the best products to our patients.</p>
         </div>
 
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="blog_cardss ">
+                    <img class="rounded-circle shadow-1-strong mb-4"
+                                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="avatar"
+                                    style="width: 150px;" />
+                                <h5 class="mb-3">Anna Deynah</h5>
+                                <p>UX Designer</p>
+                                <p class="text-muted">
+                                    <i class="fas fa-quote-left pe-2"></i>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                                    officiis hic tenetur quae quaerat ad velit ab hic tenetur.
+                                </p>
+                                <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                </ul>
+              </div>
+            </div>
+            <div class="item">
+              <div class="  blog_cardss" >
+                <img class="rounded-circle shadow-1-strong mb-4"
+                                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar"
+                                    style="width: 150px;" />
+                                <h5 class="mb-3">John Doe</h5>
+                                <p>Web Developer</p>
+                                <p class="text-muted">
+                                    <i class="fas fa-quote-left pe-2"></i>
+                                    Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+                                    suscipit laboriosam, nisi ut aliquid commodi.
+                                </p>
+                                <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li>
+                                        <i class="fas fa-star-half-alt fa-sm"></i>
+                                    </li>
+                                </ul>
+              </div>
+            </div>
+            <div class="item">
+              <div class=" blog_cardss">
+                    <img class="rounded-circle shadow-1-strong mb-4"
+                                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar"
+                                    style="width: 150px;" />
+                                <h5 class="mb-3">Maria Kate</h5>
+                                <p>Photographer</p>
+                                <p class="text-muted">
+                                    <i class="fas fa-quote-left pe-2"></i>
+                                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                                    praesentium voluptatum deleniti atque corrupti.
+                                </p>
+                                <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="far fa-star fa-sm"></i></li>
+                                </ul>
 
+              </div>
+            </div>
+            <!-- Add more items as needed -->
+          </div>
+          
+          <div class="custom-nav-buttons">
+            <button class="prev">Previous</button>
+            <button class="next">Next</button>
+          </div>
+          
+          <!-- Owl Carousel JavaScript -->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+          
+          <script>
+            $(document).ready(function(){
+              var owl = $('.owl-carousel');
+              owl.owlCarousel({
+                loop:true,
+                margin:10,
+                nav:false,
+                dots:true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:3
+                    },
+                    1000:{
+                        items:3
+                    }
+                }
+              });
+          
+              // Custom Navigation Buttons
+              $('.next').click(function() {
+                owl.trigger('next.owl.carousel');
+              });
+              $('.prev').click(function() {
+                owl.trigger('prev.owl.carousel');
+              });
+            });
+          </script>
 
         <!-- Carousel wrapper -->
-        <div id="carouselMultiItemExample" data-mdb-carousel-init class="carousel slide carousel-dark text-center"
+        <!-- <div id="carouselMultiItemExample" data-mdb-carousel-init class="carousel slide carousel-dark text-center"
             data-mdb-ride="carousel">
-            <!-- Controls -->
+
             <div class="d-flex justify-content-center mb-4">
                 <button class="carousel-control-prev position-relative" type="button"
                     data-mdb-target="#carouselMultiItemExample" data-mdb-slide="prev">
@@ -676,9 +870,9 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-            <!-- Inner -->
+
             <div class="carousel-inner py-4">
-                <!-- Single item -->
+
                 <div class="carousel-item active">
                     <div class="container">
                         <div class="row">
@@ -747,7 +941,7 @@
                     </div>
                 </div>
 
-                <!-- Single item -->
+
                 <div class="carousel-item">
                     <div class="container">
                         <div class="row">
@@ -816,7 +1010,6 @@
                     </div>
                 </div>
 
-                <!-- Single item -->
                 <div class="carousel-item">
                     <div class="container">
                         <div class="row">
@@ -885,83 +1078,117 @@
                     </div>
                 </div>
             </div>
-            <!-- Inner -->
-        </div>
+
+        </div> -->
         <!-- Carousel wrapper -->
 
 
 
         <!-- Frequently Ask Question -->
-        <div class="container">
+        <div class="container mt-5">
             <h1 class="text-center meetourdoctors">Frequently Ask Question</h1>
             <p class="text-center weuse">We use only the best quality materials on the market in order <br> to provide
                 the best products to our patients.</p>
         </div>
 
 
-        <div class="container">
-            <div class="m-4">
-                <div class="accordion" id="myAccordion">
-                    <div class="accordion-item">
+        <div class="last-sec" >
+            <div class="container">
+                <div class="row">
+                   
+                    <div class="accordion" id="faqAccordion">
+                      <div class="accordion-item shadow mb-5">
                         <h2 class="accordion-header" id="headingOne">
-                            <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse"
-                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                1. What is HTML?
-                            </button>
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            What skincare routine is best for my skin type?
+                          </button>
                         </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                            data-bs-parent="#myAccordion">
-                            <div class="accordion-body">
-                                <p>HTML stands for HyperText Markup Language. HTML is the standard markup language for
-                                    describing the structure of web pages. <a
-                                        href="https://www.tutorialrepublic.com/html-tutorial/" target="_blank">Learn
-                                        more.</a></p>
-                            </div>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                          <div class="accordion-body">
+                            <p class="paracolor what_provides_para">Lorem ipsum dolor sit amet consectetur. Convallis cras placerat dignissim aliquam massa. Aliquet volutpat rhoncus in convallis consectetur. Cras adipiscing volutpat non hac enim odio enim.</p>
+                          </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
+                      </div>
+                      <div class="accordion-item shadow mb-5">
                         <h2 class="accordion-header" id="headingTwo">
-                            <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse"
-                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                2. What is Bootstrap?
-                            </button>
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            What are the best anti-aging treatments for my skin concerns?"
+                          </button>
                         </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                            data-bs-parent="#myAccordion">
-                            <div class="accordion-body">
-                                <p>Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and
-                                    easier web development. It is a collection of CSS and HTML conventions. <a
-                                        href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/"
-                                        target="_blank">Learn more.</a></p>
-                            </div>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                          <div class="accordion-body">
+                            <p class="paracolor what_provides_para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores quia cum delectus, tempore et voluptatum voluptatem nam numquam nulla eaque quis, hic dolorem, voluptate fugit molestiae iste natus accusantium ab.</p>
+                          </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
+                      </div>
+                      <div class="accordion-item shadow mb-5">
                         <h2 class="accordion-header" id="headingThree">
-                            <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                3. What is CSS?
-                            </button>
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            What are the signs and symptoms of common mental health disorders?
+                          </button>
                         </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                            data-bs-parent="#myAccordion">
-                            <div class="accordion-body">
-                                <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style
-                                    properties for a given HTML element such as colors, backgrounds, fonts etc. <a
-                                        href="https://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn
-                                        more.</a></p>
-                            </div>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                          <div class="accordion-body">
+                            <p class="paracolor what_provides_para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At alias facere, saepe maiores mollitia ipsa et exercitationem sequi excepturi quae accusamus ea explicabo esse iusto corporis nulla officia id nesciunt!</p>
+                          </div>
                         </div>
+                      </div>
+                      <div class="accordion-item shadow ">
+                        <h2 class="accordion-header" id="headingFour">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            How long do the results of different cosmetic procedures typically last?"
+                          </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                          <div class="accordion-body">
+                            <p class="paracolor what_provides_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem doloremque quos consequatur a, excepturi ipsam, labore dolore ea iusto unde magni sequi molestias illo? Tenetur sequi nihil aut amet illo.</p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                 </div>
             </div>
-        </div>
+            </div>
 
-      
-
+            <script>
+                // Select all accordion buttons
+                const accordionButtons = document.querySelectorAll('.accordion-button');
+            
+                // Add event listener to each accordion button
+                accordionButtons.forEach(button => {
+                    button.addEventListener('click', () => {
+                        // Get the associated collapse target ID
+                        const targetId = button.getAttribute('data-bs-target');
+            
+                        // Get the associated collapse target element
+                        const collapseTarget = document.querySelector(targetId);
+            
+                        // Toggle the 'show' class on the collapse target
+                        collapseTarget.classList.toggle('show');
+            
+                        // Toggle the 'collapsed' class on the clicked button based on the collapse target's visibility
+                        button.classList.toggle('collapsed', !collapseTarget.classList.contains('show'));
+            
+                        // Close other accordion items if any are open
+                        accordionButtons.forEach(otherButton => {
+                            if (otherButton !== button) {
+                                const otherTargetId = otherButton.getAttribute('data-bs-target');
+                                const otherCollapseTarget = document.querySelector(otherTargetId);
+                                otherCollapseTarget.classList.remove('show');
+                                otherButton.classList.add('collapsed');
+                            }
+                        });
+                    });
+                });
+            </script>
+            
+            
+            
+            
+            
     <!-- Image -->
     <div class="container mt-5 pt-5">
-        <img src="./assets/images/slider_img.png" alt="slider_img" class="img-fluid"
+        <img src="./assets/images/videosec.png" alt="slider_img" class="img-fluid"
             style="height: 300px; width: 100%;">
     </div>
 
@@ -976,7 +1203,7 @@
 
 
 <!-- footer -->
-<section>
+<section class="mt-5">
     <div class="container ">
         <div class="row">
             <div class="col-lg-3 col-8">
