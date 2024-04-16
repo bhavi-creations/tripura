@@ -8,6 +8,10 @@
     <meta name="keywords" content="your,keywords,here">
     <meta name="author" content="Your Name">
 
+    <!-- favicon  -->
+    <link rel="icon" href="./assets/images/nav_logo.png" type="image/x-icon">
+
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -26,7 +30,12 @@
 
     <script src="https://kit.fontawesome.com/742df65007.js" crossorigin="anonymous"></script>
 
-
+    <!-- For Modal links  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
 
 </head>
 
@@ -38,38 +47,19 @@
             <nav class="navbar navbar-expand-lg d-none d-lg-block">
                 <div class="container-fluid">
                     <a href="index.html"><img src="assets/images/nav_logo.png" alt="nav_logo" class="img-fluid"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                        aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse ms-5 row text-center" id="navbarNavAltMarkup">
                         <div class="navbar-nav col-lg-7 d-flex flex-row justify-content-between">
-                            <a class="nav-link nav_link active" aria-current="page" href="index.html">Home</a>
-                            <a class="nav-link nav_link" href="about.html">About Us</a>
-                            <a class="nav-link nav_link" href="service.html">Service</a>
-                            <a class="nav-link nav_link" href="blog.html">Blog</a>
-                            <a class="nav-link nav_link" href="contact.html">Contact</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link active" aria-current="page" href="index.html">Home</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="about.html">About Us</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="service.html">Service</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="blog.html">Blog</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="contact.html">Contact</a>
                         </div>
                         <div class="col-lg-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
-                                fill="none">
-                                <path
-                                    d="M1.40849 11.0876C1.34731 11.0876 1.29084 11.0782 1.23438 11.0546V28.72C1.23438 29.784 2.10027 30.6452 3.15909 30.6452H28.8296C29.8979 30.6452 30.7638 29.784 30.7638 28.72V11.0546C30.7073 11.0782 30.6461 11.0876 30.5849 11.0876H1.40849ZM8.31293 27.6415C8.31293 27.9869 8.0334 28.2664 7.68799 28.2664H5.21459C4.86917 28.2664 4.58964 27.9869 4.58964 27.6415V25.1676C4.58964 24.8226 4.86917 24.5426 5.21459 24.5426H7.68799C8.0334 24.5426 8.31293 24.8226 8.31293 25.1676V27.6415ZM8.31293 21.8876C8.31293 22.233 8.0334 22.5125 7.68799 22.5125H5.21459C4.86917 22.5125 4.58964 22.233 4.58964 21.8876V19.4137C4.58964 19.0688 4.86917 18.7892 5.21459 18.7892H7.68799C8.0334 18.7892 8.31293 19.0688 8.31293 19.4137V21.8876ZM8.31293 16.1337C8.31293 16.4791 8.0334 16.7586 7.68799 16.7586H5.21459C4.86917 16.7586 4.58964 16.4791 4.58964 16.1337V13.6598C4.58964 13.3149 4.86917 13.0349 5.21459 13.0349H7.68799C8.0334 13.0349 8.31293 13.3149 8.31293 13.6598V16.1337ZM15.5073 27.6415C15.5073 27.9869 15.2273 28.2664 14.8824 28.2664H12.4085C12.063 28.2664 11.7835 27.9869 11.7835 27.6415V25.1676C11.7835 24.8226 12.063 24.5426 12.4085 24.5426H14.8824C15.2273 24.5426 15.5073 24.8226 15.5073 25.1676V27.6415ZM15.5078 21.8876C15.5078 22.233 15.2278 22.5125 14.8828 22.5125H12.409C12.0636 22.5125 11.784 22.233 11.784 21.8876V19.4137C11.784 19.0688 12.0636 18.7892 12.409 18.7892H14.8828C15.2278 18.7892 15.5078 19.0688 15.5078 19.4137V21.8876ZM15.5078 16.1337C15.5078 16.4791 15.2278 16.7586 14.8828 16.7586H12.409C12.0636 16.7586 11.784 16.4791 11.784 16.1337V13.6598C11.784 13.3149 12.0636 13.0349 12.409 13.0349H14.8828C15.2278 13.0349 15.5078 13.3149 15.5078 13.6598V16.1337ZM28.0217 22.2363H24.4075V25.8504H21.5022V22.2363H17.888V19.3309H21.5022V15.7168H24.4075V19.3309H28.0217V22.2363Z"
-                                    fill="white" />
-                                <path
-                                    d="M28.8297 4.88025H27.3379V6.84262C27.3379 7.83085 26.5332 8.64027 25.5402 8.64027C24.552 8.64027 23.7426 7.83085 23.7426 6.84262V4.88025H17.7943V6.84262C17.7943 7.83085 16.9897 8.64027 15.9967 8.64027C15.0084 8.64027 14.199 7.83085 14.199 6.84262V4.88025H8.2508V6.84262C8.2508 7.83085 7.44612 8.64027 6.45318 8.64027C5.46496 8.64027 4.6555 7.83085 4.6555 6.84262V4.88025H3.15906C2.10024 4.88025 1.23438 5.74617 1.23438 6.81442V10.5556C1.23438 10.6544 1.31437 10.7344 1.40849 10.7344H30.585C30.6838 10.7344 30.7638 10.6544 30.7638 10.5556V6.81442C30.7638 5.74617 29.8979 4.88025 28.8297 4.88025Z"
-                                    fill="white" />
-                                <path
-                                    d="M6.4545 8.28652C7.25448 8.28652 7.89918 7.63714 7.89918 6.84187V2.79948C7.89918 2.39949 7.7392 2.04184 7.47564 1.77834C7.21685 1.51478 6.85449 1.3548 6.4545 1.3548C5.65918 1.3548 5.00977 2.00421 5.00977 2.79948V6.84187C5.00977 7.63714 5.65918 8.28652 6.4545 8.28652Z"
-                                    fill="white" />
-                                <path
-                                    d="M15.9994 8.28652C16.7994 8.28652 17.4441 7.63714 17.4441 6.84187V2.79948C17.4441 2.39949 17.2841 2.04184 17.0206 1.77834C16.7618 1.51478 16.3994 1.3548 15.9994 1.3548C15.2041 1.3548 14.5547 2.00421 14.5547 2.79948V6.84187C14.5547 7.63714 15.2041 8.28652 15.9994 8.28652Z"
-                                    fill="white" />
-                                <path
-                                    d="M25.5424 8.28652C26.3424 8.28652 26.9871 7.63714 26.9871 6.84187V2.79948C26.9871 2.39949 26.8266 2.04184 26.5635 1.77834C26.3047 1.51478 25.9424 1.3548 25.5424 1.3548C24.7471 1.3548 24.0977 2.00421 24.0977 2.79948V6.84187C24.0977 7.63714 24.7471 8.28652 25.5424 8.28652Z"
-                                    fill="white" />
-                            </svg>
+                           <img src="assets/images/appointimg.png" class="img-fluid"/>
                         </div>
                         <div class="col-lg-3">
                             <button class="btn btn-primary nav_btn"><svg xmlns="http://www.w3.org/2000/svg" width="17"
@@ -93,31 +83,14 @@
                     </button>
                     <div class="collapse navbar-collapse ms-5" id="navbarNavAltMarkup2">
                         <div class="navbar-nav">
-                            <a class="nav-link nav_link active" aria-current="page" href="#">Home</a>
-                            <a class="nav-link nav_link" href="#">About Us</a>
-                            <a class="nav-link nav_link" href="#">Service</a>
-                            <a class="nav-link nav_link">Blog</a>
-                            <a class="nav-link nav_link">Contact</a>
+                            <a class="nav-link nav_link active" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link nav_link" href="about.html">About Us</a>
+                            <a class="nav-link nav_link" href="service.html">Service</a>
+                            <a class="nav-link nav_link" href="blog.html">Blog</a>
+                            <a class="nav-link nav_link" href="contact.html">Contact</a>
                         </div>
                         <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
-                                fill="none">
-                                <path
-                                    d="M1.40849 11.0876C1.34731 11.0876 1.29084 11.0782 1.23438 11.0546V28.72C1.23438 29.784 2.10027 30.6452 3.15909 30.6452H28.8296C29.8979 30.6452 30.7638 29.784 30.7638 28.72V11.0546C30.7073 11.0782 30.6461 11.0876 30.5849 11.0876H1.40849ZM8.31293 27.6415C8.31293 27.9869 8.0334 28.2664 7.68799 28.2664H5.21459C4.86917 28.2664 4.58964 27.9869 4.58964 27.6415V25.1676C4.58964 24.8226 4.86917 24.5426 5.21459 24.5426H7.68799C8.0334 24.5426 8.31293 24.8226 8.31293 25.1676V27.6415ZM8.31293 21.8876C8.31293 22.233 8.0334 22.5125 7.68799 22.5125H5.21459C4.86917 22.5125 4.58964 22.233 4.58964 21.8876V19.4137C4.58964 19.0688 4.86917 18.7892 5.21459 18.7892H7.68799C8.0334 18.7892 8.31293 19.0688 8.31293 19.4137V21.8876ZM8.31293 16.1337C8.31293 16.4791 8.0334 16.7586 7.68799 16.7586H5.21459C4.86917 16.7586 4.58964 16.4791 4.58964 16.1337V13.6598C4.58964 13.3149 4.86917 13.0349 5.21459 13.0349H7.68799C8.0334 13.0349 8.31293 13.3149 8.31293 13.6598V16.1337ZM15.5073 27.6415C15.5073 27.9869 15.2273 28.2664 14.8824 28.2664H12.4085C12.063 28.2664 11.7835 27.9869 11.7835 27.6415V25.1676C11.7835 24.8226 12.063 24.5426 12.4085 24.5426H14.8824C15.2273 24.5426 15.5073 24.8226 15.5073 25.1676V27.6415ZM15.5078 21.8876C15.5078 22.233 15.2278 22.5125 14.8828 22.5125H12.409C12.0636 22.5125 11.784 22.233 11.784 21.8876V19.4137C11.784 19.0688 12.0636 18.7892 12.409 18.7892H14.8828C15.2278 18.7892 15.5078 19.0688 15.5078 19.4137V21.8876ZM15.5078 16.1337C15.5078 16.4791 15.2278 16.7586 14.8828 16.7586H12.409C12.0636 16.7586 11.784 16.4791 11.784 16.1337V13.6598C11.784 13.3149 12.0636 13.0349 12.409 13.0349H14.8828C15.2278 13.0349 15.5078 13.3149 15.5078 13.6598V16.1337ZM28.0217 22.2363H24.4075V25.8504H21.5022V22.2363H17.888V19.3309H21.5022V15.7168H24.4075V19.3309H28.0217V22.2363Z"
-                                    fill="white" />
-                                <path
-                                    d="M28.8297 4.88025H27.3379V6.84262C27.3379 7.83085 26.5332 8.64027 25.5402 8.64027C24.552 8.64027 23.7426 7.83085 23.7426 6.84262V4.88025H17.7943V6.84262C17.7943 7.83085 16.9897 8.64027 15.9967 8.64027C15.0084 8.64027 14.199 7.83085 14.199 6.84262V4.88025H8.2508V6.84262C8.2508 7.83085 7.44612 8.64027 6.45318 8.64027C5.46496 8.64027 4.6555 7.83085 4.6555 6.84262V4.88025H3.15906C2.10024 4.88025 1.23438 5.74617 1.23438 6.81442V10.5556C1.23438 10.6544 1.31437 10.7344 1.40849 10.7344H30.585C30.6838 10.7344 30.7638 10.6544 30.7638 10.5556V6.81442C30.7638 5.74617 29.8979 4.88025 28.8297 4.88025Z"
-                                    fill="white" />
-                                <path
-                                    d="M6.4545 8.28652C7.25448 8.28652 7.89918 7.63714 7.89918 6.84187V2.79948C7.89918 2.39949 7.7392 2.04184 7.47564 1.77834C7.21685 1.51478 6.85449 1.3548 6.4545 1.3548C5.65918 1.3548 5.00977 2.00421 5.00977 2.79948V6.84187C5.00977 7.63714 5.65918 8.28652 6.4545 8.28652Z"
-                                    fill="white" />
-                                <path
-                                    d="M15.9994 8.28652C16.7994 8.28652 17.4441 7.63714 17.4441 6.84187V2.79948C17.4441 2.39949 17.2841 2.04184 17.0206 1.77834C16.7618 1.51478 16.3994 1.3548 15.9994 1.3548C15.2041 1.3548 14.5547 2.00421 14.5547 2.79948V6.84187C14.5547 7.63714 15.2041 8.28652 15.9994 8.28652Z"
-                                    fill="white" />
-                                <path
-                                    d="M25.5424 8.28652C26.3424 8.28652 26.9871 7.63714 26.9871 6.84187V2.79948C26.9871 2.39949 26.8266 2.04184 26.5635 1.77834C26.3047 1.51478 25.9424 1.3548 25.5424 1.3548C24.7471 1.3548 24.0977 2.00421 24.0977 2.79948V6.84187C24.0977 7.63714 24.7471 8.28652 25.5424 8.28652Z"
-                                    fill="white" />
-                            </svg>
+                            <img src="assets/images/appointimg.png" class="img-fluid"/>
                         </div>
                         <div class="my-2">
                             <button class="btn btn-primary nav_btn"><svg xmlns="http://www.w3.org/2000/svg" width="17"
@@ -469,11 +442,11 @@
 
 
     <!-- footer -->
-    <section class="mt-5">
+    <section class="mt-5" style="background-color: #E6F6FE;"> 
         <div class="container ">
             <div class="row">
                 <div class="col-lg-3 col-8">
-                    <img src="assets/images/footer_logo.png" alt="footer_logo.png" class="img-fluid">
+                    <a href="index.html"><img src="assets/images/footer_logo.png" alt="footer_logo.png" class="img-fluid"></a>
                 </div>
                 <div class="col-lg-9 footer_get">
                     <div class="row mt-2">
@@ -482,11 +455,11 @@
                             <p style="font-weight: 700;" class="footer_get2">Get in touch</p>
                         </div>
                         <div class=" col-lg-6 d-flex flex-row justify-content-between order-1 order-md-1 order-lg-2">
-                            <a class="nav-link nav_link_footer active" aria-current="page" href="#">Home</a>
-                            <a class="nav-link nav_link_footer" href="#">About Us</a>
-                            <a class="nav-link nav_link_footer" href="#">Service</a>
-                            <a class="nav-link nav_link_footer">Blog</a>
-                            <a class="nav-link nav_link_footer">Contact</a>
+                            <a class="nav-link nav_link_footer active" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link nav_link_footer" href="about.html">About Us</a>
+                            <a class="nav-link nav_link_footer" href="service.html">Service</a>
+                            <a class="nav-link nav_link_footer" href="blog.html">Blog</a>
+                            <a class="nav-link nav_link_footer" href="contact.html">Contact</a>
                         </div>
                     </div>
                     <div class="row">
@@ -520,7 +493,7 @@
             <hr>
             <div class="row">
                 <div class="col-12 col-sm-12 col-lg-6 text-center order-2 order-lg-1 mt-2">
-                    <p>All rights reserved ® Bhavi Creations | Terms and conditions apply!</p>
+                    <p>   ©2024 Tripura <i>All Rights Reserved by <a href="https://bhavicreations.com/" target="_blank" style="text-decoration: none;color:#026F7F">Bhavi Creations</a></i></p>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-6  order-1 order-lg-2  mt-2">
                     <div class="row footer_social ">
@@ -585,6 +558,16 @@
             </div>
         </div>
     </section>
+
+   <!-- whatsapp icon  -->
+<a href="https://api.whatsapp.com/send?phone=919493066633
+" target="_blank">
+    <div class="whatsapp_logo">
+      <img src="assets/images/whatsapp.png" alt="whatsapp" class="img-fluid" height="50px" width="50px">
+    </div>
+</a>
+
+
 
 </body>
 
