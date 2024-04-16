@@ -181,6 +181,13 @@ letter-spacing: 0.27px;
         margin-right: 70px;
     }
 }
+
+@media(min-width:1200px) {
+    .last-sec {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+}
 /* end */
 
 /*================================= About Page ================================= */
@@ -523,7 +530,7 @@ border-width: 0px;
 }
 @media(max-width:768px) {
     .form_sec {
-        margin-top: 10px;
+        margin-top: 10px !important;
     } 
 }
 
@@ -785,11 +792,12 @@ line-height: normal;
     right: 20px; /* Adjust the right distance */
     z-index: 999; /* Set a high z-index to ensure the button is on top */
     padding: 10px 15px;
-    background-color: #f3ef1a;
+    background-color: #009DDE;
     color: black;
     border: none;
     border-radius:50%;
     cursor: pointer;
+    stroke: white;
   }
 
 

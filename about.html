@@ -45,8 +45,8 @@
 
 <body>
 
-    <!-- nav bar -->
-    <section>
+      <!-- nav bar -->
+      <section>
         <div class="nav_bar">
             <nav class="navbar navbar-expand-lg d-none d-lg-block">
                 <div class="container-fluid">
@@ -110,28 +110,28 @@
         </div>
     </section>
 
-
+    
     <div class="section1 mt-5">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="head_about">About Us</h1>
+                    <h1 class="head_about " style="font-size: 42px;">About Us</h1>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="section2">
+    <div class="section2 mt-5">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6 col-xl-6">
-                    <h1 class="mission_heading ">Our Mission</h1>
+                    <h1 class="mission_heading " style="font-size: 32px;">Our Mission</h1>
                     <p class="mission_para">"In skincare and cosmetology, our mission is to enhance natural beauty and
                         promote skin health through cutting-edge treatments like Chemical Peels, Botox, Fillers, and
                         Laser Hair Reduction. We're dedicated to delivering safe, effective, and natural-looking results
                         for our p atients.
                     </p>
-                    <h2 class="mission2_head">More than anything else we love creating happy, healthy Skins
+                    <h2 class="mission2_head" style="font-size: 22px; font-weight: 500;">More than anything else we love creating happy, healthy Skins
                     </h2>
                     <p class="mission2_para">n mental health care, our mission is to provide comprehensive support for
                         individuals of all ages, addressing conditions from anxiety to dementia. With evidence-based
@@ -149,7 +149,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="meet_heading">Meet our specialists</h1>
+                    <h1 class="meet_heading" style="font-size: 42px;">Meet our specialists</h1>
                     <p class="meet_para">We use only the best quality materials on the market in order to provide the
                         best products to our patients.</p>
                 </div>
@@ -157,7 +157,7 @@
         </div>
     </div>
 
-    <div class="section4">
+    <div class="section4 mt-5">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-3 col-lg-3">
@@ -305,7 +305,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="latest_heading">Latest Technology</h1>
+                    <h1 class="latest_heading" style="font-size: 42px;">Latest Technology</h1>
                     <p class="latest_para">Thanks to major technological advancements, dentistry allows treating the
                         most complex cases with less time and more efficiency.</p>
                 </div>
@@ -320,7 +320,7 @@
                     <img src="assets/images/about_img2.png" class="img-fluid" style="border-radius:40%" />
                 </div>
                 <div class="col-12 col-md-6 mt-5">
-                    <h1 class="future_heading">The Future of Skin Care,cosmetic</h1>
+                    <h1 class="future_heading" style="font-size: 29px; font-weight: 500;">The Future of Skin Care,cosmetic</h1>
                     <p class="future_para">"Thank you for choosing our clinic for your mental health care needs and
                         considering our hospital for your skincare and cosmetic needs. With advanced treatments for
                         conditions like anxiety, depression, OCD, and more, and cutting-edge technologies like MNRF,
@@ -340,7 +340,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="welcoming_heading">We’re welcoming new patients and can’t wait to meet you.</h1>
+                    <h1 class="welcoming_heading" style="font-size: 32px;">We’re welcoming new patients and can’t wait to meet you.</h1>
                     <p class="welcoming_para">We use only the best quality materials on the market in order to provide
                         the best products to our patients.</p>
                     <img src="assets/images/videosec.png" class="img-fluid" />
@@ -469,8 +469,42 @@
         </div>
     </section>
 
+<!-- Scroll Up Button  -->
+<button id="scrollBtn" onclick="scrollToTop()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"/>
+  </svg></button>
+      
+<script>
+    // Function to scroll to the top of the page
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth' // Optional, smooth scrolling animation
+        });
+    }
 
-    <!-- footer -->
+    // Show scroll button when scrolling down
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("scrollBtn").style.display = "block";
+        } else {
+            document.getElementById("scrollBtn").style.display = "none";
+        }
+    }
+</script>
+
+
+   <!-- whatsapp icon  -->
+   <a href="https://api.whatsapp.com/send?phone=919493066633
+   " target="_blank">
+       <div class="whatsapp_logo">
+         <img src="assets/images/whatsapp.png" alt="whatsapp" class="img-fluid" height="50px" width="50px">
+       </div>
+   </a>
+
+ <!-- footer -->
     <section class="mt-5" style="background-color: #E6F6FE;"> 
         <div class="container ">
             <div class="row">
@@ -480,7 +514,7 @@
                 <div class="col-lg-9 footer_get">
                     <div class="row mt-2">
 
-                        <div class="col-sm-6 col-lg-4 text-start ms-5 order-2 order-md-2 order-lg-1 ">
+                        <div class="col-sm-6 col-lg-4 text-start  order-2 order-md-2 order-lg-1 ">
                             <p style="font-weight: 700;" class="footer_get2">Get in touch</p>
                         </div>
                         <div class=" col-lg-6 d-flex flex-row justify-content-between order-1 order-md-1 order-lg-2">
@@ -588,15 +622,8 @@
         </div>
     </section>
 
-    <!-- whatsapp icon  -->
-<a href="https://api.whatsapp.com/send?phone=919493066633
-" target="_blank">
-    <div class="whatsapp_logo">
-      <img src="assets/images/whatsapp.png" alt="whatsapp" class="img-fluid" height="50px" width="50px">
-    </div>
-</a>
 
-
+    
 </body>
 
 </html>
