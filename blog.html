@@ -107,7 +107,12 @@
             <div class="row">
                 <div class="col-12">
                     <h1 class="blogs-head" style="font-size: 42px;">Blogs</h1>
-                    <p class="blogs_para">Explore our informative blogs covering a wide range of topics, from skincare tips and treatment insights to the latest advancements in cosmetic procedures and wellness advice.</p>
+                    <div class="d-flex flex-row justify-content-center">
+                        <svg  xmlns="http://www.w3.org/2000/svg" width="326" height="13" viewBox="0 0 326 13" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.49402 10.368C14.4034 9.59066 32.5617 9.55179 81.8547 9.47405C158.827 9.35744 219.917 8.50234 236.895 7.25853C238.243 7.14193 130.347 6.28681 119.267 6.90871C101.993 7.91931 19.5012 7.06419 2.90174 5.89812C-1.81689 5.58717 -0.0473825 4.49884 3.02815 4.26562C7.83102 3.87694 20.7231 3.91581 56.0707 3.99355C80.9278 4.03242 278.689 3.13843 300.302 1.5448C312.435 0.65082 319.808 -0.165424 323.179 0.0289192C326.001 0.184395 326.044 0.65082 323.6 1.93349C321.957 2.78861 323.811 3.29391 324.99 3.52712C326.802 3.91581 326.043 5.23735 323.768 6.28681C320.693 7.72496 315.384 7.68609 317.912 6.24794C318.46 5.93699 318.586 5.15961 316.648 5.31509C311.003 5.78152 271.105 8.96876 260.278 9.51292C144.671 15.421 31.8455 11.1066 7.95741 12.5447C-0.510838 13.0889 3.36523 10.8345 7.49402 10.368Z" fill="#25B4F8"/>
+                          </svg>
+                    </div>
+                    <p class="blogs_para alignments">Explore our informative blogs covering a wide range of topics, from skincare tips and treatment insights to the latest advancements in cosmetic procedures and wellness advice.</p>
                 </div>
             </div>
         </div>
@@ -162,7 +167,7 @@
                     <a href="blog_details.html"><button class="blog_readmore"> Read more</button></a>
                     <p class="blog-name">~Anita Jackson</p>
                 </div>
-              <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">The Power of Youthful Aging: Anti-Aging Strategies for Every Age</h5>
+              <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">The Power of Youthful Aging: Anti-Aging Strategies for </h5>
               <p class="card-text">Explore the latest anti-aging strategies and treatments designed to combat..</p>
             </div>
           </div>
@@ -214,7 +219,7 @@
         });
       </script>
 
-      <div class="blogs-section2 mt-5">
+      <!-- <div class="blogs-section2 mt-5">
         <div class="container">
             <div class="row">
                 <div class="col-12 " >
@@ -360,14 +365,97 @@
                 </div>
             </div>
         </div>
-      </div>
+      </div> -->
+
+
+      <div class="blogs-section2 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="article_heading mt-5">Articles</h1>
+                    <div class="d-flex flex-row justify-content-end">
+                        <p> Sort by:</p>
+                        <select id="sort-dropdown" class="filter-dropdown">
+                            <option class="option_text" selected >New</option>
+                            <option class="option_text" >New</option>
+                            <!-- Add other sorting options if needed -->
+                        </select>
+                    </div>
+                </div>
+                <div id="article-cards" class="row">
+                    <!-- Article cards will be dynamically generated here -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const sortDropdown = document.getElementById("sort-dropdown");
+            const articleCardsContainer = document.getElementById("article-cards");
+    
+            // Sample array of article objects with 'timestamp' property
+            let articles = [
+                { id: 1, timestamp: new Date('2024-04-19T10:00:00') },
+                { id: 2, timestamp: new Date('2024-04-19T11:00:00') },
+                { id: 3, timestamp: new Date('2024-04-19T09:00:00') },
+                { id: 4, timestamp: new Date('2024-04-19T08:00:00') },
+                // Add more articles as needed
+            ];
+    
+            // Function to render article cards on the page
+            const renderArticles = (articles) => {
+                articleCardsContainer.innerHTML = ''; // Clear existing cards
+                articles.forEach(article => {
+                    const cardHtml = `
+                       
+                        <div class="col-12 col-md-6 col-lg-3 mt-2">
+                            <div class="card blog_cardss">
+                                <!-- Card content here -->
+                                <img src="assets/images/image_icon.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="d-flex flex-row justify-content-between">
+                                        <button class="blog_readmore"> Read more</button>
+                                    </div>
+                                    <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Tattoo Removal 101</h5>
+                                    <p class="card-text">Uncover the ins and outs of tattoo removal, from...</p>
+                                <div class="d-flex flex-row justify-content-end">
+                                    <p class="blog-name">~Anita Jackson</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    articleCardsContainer.innerHTML += cardHtml;
+                });
+            };
+    
+            // Function to sort articles by timestamp in descending order (newest first)
+            const sortByNewest = () => {
+                articles.sort((a, b) => b.timestamp - a.timestamp);
+                renderArticles(articles);
+            };
+    
+            // Event listener to detect changes in the dropdown selection
+            sortDropdown.addEventListener("change", function() {
+                if (this.value === "new") {
+                    sortByNewest();
+                }
+                // Add other sorting options if needed
+            });
+    
+            // Initial rendering of articles
+            renderArticles(articles);
+        });
+    </script>
+    
 
        <!-- Frequently Ask Question -->
        <div class="container mt-5">
         <div class="row">
             <div class="col-12">
                 <h1 class="text-center meetourdoctors">Frequently Ask Question</h1>
-                <p class="text-center weuse">Explore answers to common queries regarding our treatments, procedures, and clinic policies to ensure you're well-informed before your visit.</p>
+                <p class="text-center weuse alignments">Explore answers to common queries regarding our treatments, procedures, and clinic policies to ensure you're well-informed before your visit.</p>
             </div>
         </div>
     </div>

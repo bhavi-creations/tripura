@@ -530,6 +530,12 @@ border-width: 0px;
         margin-top: 10px !important;
     } 
 }
+@media(min-width:1200px) {
+    .alignments {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+}
 
 /* =================================== Blogs page ======================================= */
  /* Customize styles here */
@@ -619,11 +625,12 @@ font-weight: 600;
 text-transform: capitalize;
 }
 .filter-dropdown {
-    width: 187px;
-height: 60px;
+    width: 87px;
+height: 30px;
 flex-shrink: 0;
 border-radius: 5px;
 border: 1px solid #CFCFCF;
+margin-left: 3px;
 }
 .option_text {
     color: var(--Dark-Blue-Design, #011632);
