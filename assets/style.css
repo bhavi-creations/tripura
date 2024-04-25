@@ -599,10 +599,9 @@ letter-spacing: 0.27px;
 }
 
 .blog_cardss {
-    /* background-color: #E6F6FE; */
-    /* padding: 9px; */
-    background-color: white;
-    box-shadow:  18px  18px  18px 18px rgba(0, 0, 0, 0.1);
+    background-color: #E6F6FE;
+    padding: 9px;
+   
 }
  
 .blog_readmore {
