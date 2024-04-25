@@ -7,8 +7,12 @@ require 'vendor/autoload.php'; // Adjust the path to autoload.php based on your 
 // Check if the form is submitted
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Assign POST data to variables
-    $name = $_POST['name'] ?? '';
+    $first = $_POST['first'] ?? '';
+    $last = $_POST['last'] ?? '';
     $email = $_POST['email'] ?? '';
+    $phonenumber = $_POST['phonenumber'] ?? '';
+    $date = $_POST['date'] ?? '';
+    $category = $_POST['category'] ?? '';
     $message = $_POST['message'] ?? '';
 
     // Create a new PHPMailer instance
@@ -33,11 +37,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->Subject = 'New Message from Contact Form';
         $mail->Body = "
             <h1>New Message From Contact Form</h1>
-            <p><strong>Name:</strong> $name</p>
-
-            <p><strong>Email:</strong> $email</p>
+            <p><strong> First Name:</strong> $first</p>
+            <p><strong>Last Name :</strong> $last</p>
+            <p><strong>Email:</strong><br> $email</p>
+            <p><strong>Strong :</strong> $date</p>
+            <p><strong>Category :</strong> $category</p>
             <p><strong>Message:</strong><br>$message</p>
-        ";
+        
+           ";
 
         $mail->send();
         echo 'Submitted Succesfully';
@@ -48,3 +55,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // If accessed directly without POST data
     echo 'Access Denied';
 }
+
+
