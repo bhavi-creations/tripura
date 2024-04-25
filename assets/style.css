@@ -200,6 +200,11 @@ letter-spacing: 0.27px;
     text-transform: capitalize;
 }
 
+@media (min-width:1200px) {
+    .mission_heading {
+        margin-top: 90px;
+    }
+}
 .mission_heading {
     color: var(--Dark-Blue-Design, #011632);
     font-size: 42px;
