@@ -37,8 +37,8 @@
 
 <body>
 
-    <!-- nav bar -->
-    <section>
+     <!-- nav bar -->
+     <section>
         <div class="nav_bar">
             <nav class="navbar navbar-expand-lg d-none d-lg-block">
                 <div class="container-fluid">
@@ -55,14 +55,11 @@
                             <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="contact.php">Contact</a>
                         </div>
                         <div class="col-lg-2">
-                           <img src="assets/images/appointimg.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#exampleModal"/>
+                            <img src="assets/images/appointimg.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#exampleModal" />
                         </div>
                         <div class="col-lg-3">
-                            <button class="btn btn-primary nav_btn"><svg xmlns="http://www.w3.org/2000/svg" width="17"
-                                    height="21" viewBox="0 0 17 21" fill="none">
-                                    <path
-                                        d="M6.50129 8.96815L8.27995 7.39981C8.7667 6.97046 9.10896 6.41108 9.26284 5.79343C9.41671 5.17578 9.37519 4.52802 9.14359 3.93321L8.38356 1.98235C8.09991 1.25445 7.53825 0.657952 6.81306 0.31442C6.08786 -0.0291117 5.25371 -0.0938151 4.48062 0.133497C1.63609 0.970263 -0.55035 3.51244 0.122656 6.53197C0.565249 8.51789 1.41148 11.0107 3.01691 13.6636C4.36215 15.8979 6.05452 17.9216 8.03545 19.6644C10.4142 21.746 13.8124 21.2256 15.9988 19.2659C16.5849 18.7405 16.9405 18.02 16.9932 17.2511C17.0459 16.4823 16.7916 15.7231 16.2823 15.1283L14.889 13.501C14.4691 13.0103 13.9062 12.6515 13.2727 12.4705C12.6391 12.2896 11.9638 12.2949 11.3333 12.4858L9.03252 13.1831C8.94384 13.0954 8.8419 12.991 8.72918 12.8707C8.25615 12.3675 7.83764 11.8193 7.48014 11.2346C7.13234 10.6444 6.84796 10.0217 6.63142 9.37617C6.58513 9.24104 6.54175 9.105 6.50129 8.96815Z"
-                                        fill="white" />
+                            <button class="btn btn-primary nav_btn"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="21" viewBox="0 0 17 21" fill="none">
+                                    <path d="M6.50129 8.96815L8.27995 7.39981C8.7667 6.97046 9.10896 6.41108 9.26284 5.79343C9.41671 5.17578 9.37519 4.52802 9.14359 3.93321L8.38356 1.98235C8.09991 1.25445 7.53825 0.657952 6.81306 0.31442C6.08786 -0.0291117 5.25371 -0.0938151 4.48062 0.133497C1.63609 0.970263 -0.55035 3.51244 0.122656 6.53197C0.565249 8.51789 1.41148 11.0107 3.01691 13.6636C4.36215 15.8979 6.05452 17.9216 8.03545 19.6644C10.4142 21.746 13.8124 21.2256 15.9988 19.2659C16.5849 18.7405 16.9405 18.02 16.9932 17.2511C17.0459 16.4823 16.7916 15.7231 16.2823 15.1283L14.889 13.501C14.4691 13.0103 13.9062 12.6515 13.2727 12.4705C12.6391 12.2896 11.9638 12.2949 11.3333 12.4858L9.03252 13.1831C8.94384 13.0954 8.8419 12.991 8.72918 12.8707C8.25615 12.3675 7.83764 11.8193 7.48014 11.2346C7.13234 10.6444 6.84796 10.0217 6.63142 9.37617C6.58513 9.24104 6.54175 9.105 6.50129 8.96815Z" fill="white" />
                                 </svg>+91 94930 66633</button>
                         </div>
                     </div>
@@ -72,9 +69,7 @@
             <nav class="navbar navbar-expand-lg d-block d-lg-none ">
                 <div class="container-fluid">
                     <img src="assets/images/nav_logo.png" alt="nav_logo" class="img-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavAltMarkup2" aria-controls="navbarNavAltMarkup2" aria-expanded="false"
-                        aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup2" aria-controls="navbarNavAltMarkup2" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse ms-5" id="navbarNavAltMarkup2">
@@ -86,14 +81,11 @@
                             <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="contact.php">Contact</a>
                         </div>
                         <div>
-                            <img src="assets/images/appointimg.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#exampleModal"/>
+                            <img src="assets/images/appointimg.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#exampleModal" />
                         </div>
                         <div class="my-2">
-                            <button class="btn btn-primary nav_btn"><svg xmlns="http://www.w3.org/2000/svg" width="17"
-                                    height="21" viewBox="0 0 17 21" fill="none">
-                                    <path
-                                        d="M6.50129 8.96815L8.27995 7.39981C8.7667 6.97046 9.10896 6.41108 9.26284 5.79343C9.41671 5.17578 9.37519 4.52802 9.14359 3.93321L8.38356 1.98235C8.09991 1.25445 7.53825 0.657952 6.81306 0.31442C6.08786 -0.0291117 5.25371 -0.0938151 4.48062 0.133497C1.63609 0.970263 -0.55035 3.51244 0.122656 6.53197C0.565249 8.51789 1.41148 11.0107 3.01691 13.6636C4.36215 15.8979 6.05452 17.9216 8.03545 19.6644C10.4142 21.746 13.8124 21.2256 15.9988 19.2659C16.5849 18.7405 16.9405 18.02 16.9932 17.2511C17.0459 16.4823 16.7916 15.7231 16.2823 15.1283L14.889 13.501C14.4691 13.0103 13.9062 12.6515 13.2727 12.4705C12.6391 12.2896 11.9638 12.2949 11.3333 12.4858L9.03252 13.1831C8.94384 13.0954 8.8419 12.991 8.72918 12.8707C8.25615 12.3675 7.83764 11.8193 7.48014 11.2346C7.13234 10.6444 6.84796 10.0217 6.63142 9.37617C6.58513 9.24104 6.54175 9.105 6.50129 8.96815Z"
-                                        fill="white" />
+                            <button class="btn btn-primary nav_btn"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="21" viewBox="0 0 17 21" fill="none">
+                                    <path d="M6.50129 8.96815L8.27995 7.39981C8.7667 6.97046 9.10896 6.41108 9.26284 5.79343C9.41671 5.17578 9.37519 4.52802 9.14359 3.93321L8.38356 1.98235C8.09991 1.25445 7.53825 0.657952 6.81306 0.31442C6.08786 -0.0291117 5.25371 -0.0938151 4.48062 0.133497C1.63609 0.970263 -0.55035 3.51244 0.122656 6.53197C0.565249 8.51789 1.41148 11.0107 3.01691 13.6636C4.36215 15.8979 6.05452 17.9216 8.03545 19.6644C10.4142 21.746 13.8124 21.2256 15.9988 19.2659C16.5849 18.7405 16.9405 18.02 16.9932 17.2511C17.0459 16.4823 16.7916 15.7231 16.2823 15.1283L14.889 13.501C14.4691 13.0103 13.9062 12.6515 13.2727 12.4705C12.6391 12.2896 11.9638 12.2949 11.3333 12.4858L9.03252 13.1831C8.94384 13.0954 8.8419 12.991 8.72918 12.8707C8.25615 12.3675 7.83764 11.8193 7.48014 11.2346C7.13234 10.6444 6.84796 10.0217 6.63142 9.37617C6.58513 9.24104 6.54175 9.105 6.50129 8.96815Z" fill="white" />
                                 </svg>+91 94930 66633</button>
                         </div>
                     </div>

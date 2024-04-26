@@ -34,7 +34,7 @@
 </head>
 
 <body>
-    <!-- nav bar -->+
+    <!-- nav bar -->
     <section>
         <div class="nav_bar">
             <nav class="navbar navbar-expand-lg d-none d-lg-block">
@@ -395,7 +395,7 @@
 
 
                     <div class="d-flex ">
-                        <button class="shd_btn"> Learn More</button>
+                        <a href="about.php"><button class="shd_btn"> Learn More</button> </a>
                         <button class="  sche_button2" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Make an Appointment </button>
 
                     </div>
