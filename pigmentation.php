@@ -135,7 +135,7 @@
                     <h2 class="shedual_para">Pigmentation</h2>
                     <p class="sahde_color">Experience the transformative effects of Pigmentation Reduction Peels at our clinic, where specialized peels are tailored to effectively reduce pigmentation and reveal a more even skin tone. These peels contain potent ingredients that target melanin production, break down existing pigmentation, and promote skin renewal. By exfoliating the skin and stimulating cell turnover, pigmentation reduction peels help fade dark spots, sun damage, and uneven skin tone, leaving you with a more radiant and uniform complexion. Unveil brighter, smoother skin with our customized pigmentation reduction peel treatments.</p>
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalpigmentation"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
             </div>
@@ -152,7 +152,7 @@
                     <h2 class="shedual_para">Reduction Peels</h2>
                     <p class="sahde_color">Unlock the secret to smoother, more radiant skin with Reduction Peels at Tripura Clinics. Our Reduction Peel treatments are designed to target various skin concerns, including pigmentation, uneven texture, and fine lines, leaving you with a rejuvenated and refreshed complexion. By harnessing the power of potent ingredients such as alpha hydroxy acids (AHAs) and beta hydroxy acids (BHAs), our specialized peels exfoliate the skin's surface, promoting cell turnover and revealing brighter, more youthful-looking skin underneath. Whether you're struggling with sun damage, acne scars, or dullness, Reduction Peels at Tripura Clinics offer a safe and effective solution to help you achieve your skincare goals. Say goodbye to imperfections and hello to smoother, more luminous skin with Reduction Peels at Tripura Clinics.</p>
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalpigmentation"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
                 <div class="col-md-6  d-flex flex-column justify-content-center order-1 order-md-2 mt-2">
@@ -176,7 +176,7 @@
                     <p class="sahde_color">Laser Brightening treatments offer a cutting-edge solution to brighten and rejuvenate the skin while targeting pigmentation concerns. Our advanced laser technology precisely targets pigmented areas, breaking down excess melanin and stimulating collagen production for brighter, more even-toned skin. Laser brightening treatments are safe, effective, and non-invasive, providing noticeable results with minimal downtime. Say goodbye to pigmentation woes and hello to a luminous complexion with our laser brightening treatments. Experience the benefits of laser technology for radiant, rejuvenated skin at our clinic.
                     </p>
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalpigmentation"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
             </div>
@@ -193,7 +193,7 @@
                     <h2 class="shedual_para">Growth Factor Concentrate</h2>
                     <p class="sahde_color">Growth Factor Concentrate therapy offers a versatile solution for reducing pigmentation and promoting skin renewal. By harnessing the power of growth factors, this advanced therapy stimulates cell turnover, collagen production, and skin regeneration, resulting in a more even complexion and reduced pigmentation. Growth factors help repair damaged skin cells, fade dark spots, and enhance skin tone and texture. This innovative treatment not only addresses pigmentation concerns but also rejuvenates the skin, leaving it smoother, brighter, and more youthful. Experience the transformative effects of Growth Factor Concentrate therapy for pigmentation reduction and skin renewal at our clinic.</p>
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalpigmentation"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
                 <div class="col-md-6  d-flex flex-column justify-content-center mt-2 order-1 order-md-2">

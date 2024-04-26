@@ -136,7 +136,7 @@
                     <p class="sahde_color">Rediscover Your Radiance at Tripura Skin and Cosmetology Clinic with Botulinum Toxin & Fillers Unveil a new chapter of beauty and confidence at Tripura Skin and Cosmetology Clinic, where expert care meets advanced treatments in botulinum toxin and fillers. At Tripura Skin and Cosmetology Clinic, we understand that each individual is unique, which is why we take a personalized approach to every treatment to ensure optimal results that enhance your natural beauty. Experience the art of youthful rejuvenation at Tripura Skin and Cosmetology Clinic - where beauty meets expertise, and confidence meets transformation.</p>
                   
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalAge"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
             </div>
@@ -155,7 +155,7 @@
                     <p class="sahde_color">Achieve a lifted and contoured appearance without surgery with Threadlift treatment at Tripura Clinics. This non-invasive procedure involves inserting dissolvable threads under the skin to lift and support sagging tissues, providing a rejuvenated and more youthful appearance. Threadlift is an ideal option for those seeking to address sagging skin and achieve natural-looking results without the downtime associated with surgery. Experience the transformative effects of Threadlift and reclaim a firmer, more radiant complexion at Tripura Clinics.</p>
                    
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalAge"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
                 <div class="col-md-6  d-flex flex-column justify-content-center order-1 order-md-2">
@@ -177,7 +177,7 @@
                     <h2 class="shedual_para">HiFU</h2>
                     <p class="sahde_color">Rejuvenate your skin and tighten sagging tissues with HiFU treatment at Tripura Clinics. High-Intensity Focused Ultrasound (HiFU) utilizes ultrasound energy to stimulate collagen production and tighten the skin, resulting in a firmer and more youthful appearance. This non-invasive procedure offers long-lasting results without the need for surgery, making it an ideal choice for individuals seeking facial rejuvenation. Experience the rejuvenating effects of HiFU and uncover a more lifted and radiant complexion at Tripura Clinics.</p>
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalAge"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
                
@@ -195,7 +195,7 @@
                     <h2 class="shedual_para">MNRF</h2>
                     <p class="sahde_color">Transform your skin with MNRF (Microneedling Radiofrequency) treatment at Tripura Clinics. This advanced procedure combines microneedling technology with radiofrequency energy to significantly improve skin texture and reduce signs of aging such as wrinkles and fine lines. Tiny needles create micro-injuries in the skin, stimulating collagen production and promoting skin renewal. The addition of radiofrequency energy enhances the effects, resulting in smoother, firmer skin with reduced wrinkles and fine lines. Experience the rejuvenating benefits of MNRF treatment and achieve a more youthful complexion at Tripura Clinics.</p>
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalAge"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
                 <div class="col-md-6  d-flex flex-column justify-content-center mt-2 order-1 order-md-2">
@@ -218,7 +218,7 @@
                     <p class="sahde_color">Reveal smoother, more radiant skin with Laser Resurfacing treatment at Tripura Clinics. This advanced procedure targets specific skin concerns with precision, promoting collagen production and improving skin texture. Whether you're looking to reduce wrinkles, fine lines, or uneven pigmentation, Laser Resurfacing offers effective rejuvenation and enhancement of overall skin quality. Experience the transformative effects of Laser Resurfacing and uncover a more youthful and refreshed complexion at Tripura Clinics.</p>
                    
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalAge"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
                
@@ -237,7 +237,7 @@
                     <p class="sahde_color">Anti-aging peels offer numerous benefits for your skin. Formulated with potent ingredients like AHAs and BHAs, these peels exfoliate your skin, removing dead cells and stimulating renewal. This process improves texture, reduces fine lines, and enhances radiance. Moreover, they boost collagen production, hydrate your skin, and improve elasticity, resulting in a firmer, more youthful appearance. Incorporate anti-aging peels into your skincare routine for a healthier, rejuvenated complexion.
                     </p>
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalAge"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
                 <div class="col-md-6  d-flex flex-column justify-content-center mt-2 order-1 order-md-2" >

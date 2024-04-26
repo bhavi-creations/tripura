@@ -136,7 +136,7 @@
                     <p class="sahde_color"> Reveal your skin's natural radiance with LED light therapy at Tripura Clinics. This non-invasive treatment harnesses the power of specific wavelengths of light to stimulate collagen production, reduce inflammation, and improve skin tone and texture. By promoting cellular renewal and enhancing blood circulation, LED light therapy rejuvenates the skin from within, leaving you with a youthful and luminous complexion.
                     </p>
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalglowingskin"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
             </div>
@@ -154,7 +154,7 @@
                     <p class="sahde_color">
                         Experience the ultimate skincare luxury with our medifacials at Tripura Clinics. Our medifacials combine cutting-edge skincare technologies with therapeutic ingredients to address specific skin concerns and achieve optimal results. Renew your complexion and restore a youthful glow with our tailored medifacial treatments.</p>
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalglowingskin"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
                 <div class="col-md-6  d-flex flex-column justify-content-center order-1 order-md-2">
@@ -177,7 +177,7 @@
                     <h2 class="shedual_para">Laser Toning</h2>
                     <p class="sahde_color"> Transform your skin with laser toning at Tripura Clinics. Our laser toning treatments target pigmentation and promote collagen production, resulting in a rejuvenated complexion and improved skin texture. Experience the transformative effects of laser toning and unveil a brighter, more radiant appearance.</p>
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalglowingskin"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
             </div>
@@ -194,7 +194,7 @@
                     <h2 class="shedual_para">Skin Booster</h2>
                     <p class="sahde_color">Refresh and revitalize your complexion with Skin Booster treatments at Tripura Clinics. These specialized treatments are designed to hydrate and nourish your skin, restoring moisture levels and enhancing skin elasticity for a luminous glow. By delivering essential nutrients and hydration deep into the skin, Skin Booster treatments can help improve skin texture, tone, and overall radiance. Pamper your skin with the luxurious benefits of Skin Booster treatments at Tripura Clinics and unveil a revitalized complexion that exudes beauty and vitality.</p>
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalglowingskin"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
                 <div class="col-md-6  d-flex flex-column justify-content-center order-1 order-md-2">
@@ -216,7 +216,7 @@
                     <h2 class="shedual_para">Growth factor Concentrate</h2>
                     <p class="sahde_color">Elevate Your Skin's Radiance at Tripura Clinics Unleash the power of Growth Factor Concentrate at Tripura Clinics to enhance your skin's vitality and promote rejuvenation. By stimulating collagen production, Growth Factor Concentrate works to firm and plump the skin, reducing the appearance of fine lines and wrinkles for a more youthful complexion. Experience the transformative effects of this advanced treatment as it revitalizes your skin from within, leaving you with a radiant and healthy glow.</p>
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalglowingskin"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
                
@@ -234,7 +234,7 @@
                     <h2 class="shedual_para">Hydra Facial</h2>
                     <p class="sahde_color">Experience the ultimate in skincare indulgence with our HydraFacial treatment at Tripura Clinics. This multi-step procedure combines cleansing, exfoliation, extraction, hydration, and antioxidant protection to rejuvenate and refresh your skin. Whether you're concerned about dullness, congestion, or dehydration, the HydraFacial addresses a wide range of skincare concerns, leaving you with a luminous complexion that glows with vitality. Pamper yourself with this luxurious treatment and unveil smoother, more radiant skin after just one session.</p>
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalglowingskin"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
                 <div class="col-md-6  d-flex flex-column justify-content-center order-1 order-md-2">
@@ -257,7 +257,7 @@
                     <p class="sahde_color">Revitalize your skin with the rejuvenating effects of our Vampire Facial at Tripura Clinics. This innovative treatment harnesses the power of Platelet-Rich Plasma (PRP) therapy to stimulate collagen production, improve skin texture, and promote a healthy glow. Using your body's own natural healing properties, the Vampire Facial effectively reduces fine lines, wrinkles, and other signs of aging, leaving you with smoother, more radiant skin. Experience the transformative benefits of this non-invasive procedure and uncover a youthful complexion that shines from within.
                     </p>
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalglowingskin"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
                

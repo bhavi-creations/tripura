@@ -135,7 +135,7 @@
                     <p class="sahde_color">Combat under-eye concerns effectively with our specialized skin booster treatment at Tripura Clinics. Our skin boosters are meticulously formulated to hydrate the delicate under-eye area, addressing fine lines, wrinkles, and dark circles. By replenishing lost moisture and stimulating collagen production, our skin boosters deliver a refreshed and rejuvenated appearance, leaving you with brighter, more youthful-looking eyes.
                     </p>
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModaldarkcircles"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
             </div>
@@ -152,7 +152,7 @@
                     <h2 class="shedual_para">Chemical Peels</h2>
                     <p class="sahde_color">Revitalize your under-eye skin with our targeted chemical peel treatments at Tripura Clinics. Designed to specifically address pigmentation and uneven skin texture around the eyes, our chemical peels gently exfoliate the skin's surface, revealing a smoother and more radiant complexion. Say goodbye to dark circles and hello to brighter, more refreshed eyes with our customizable chemical peel solutions.</p>
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModaldarkcircles"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
                 <div class="col-md-6  d-flex flex-column justify-content-center order-1 order-md-2">
@@ -176,7 +176,7 @@
                     <p class="sahde_color">
                         Illuminate your under-eye area with Laser Therapy at Tripura Clinics. Our advanced laser treatments target dark circles with precision, effectively diminishing their appearance and rejuvenating your skin. By stimulating collagen production and reducing pigmentation, Laser Therapy helps brighten and smooth the delicate skin around your eyes. Experience the transformative effects of Laser Therapy and reclaim a refreshed, more radiant look at Tripura Clinics.</p>
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModaldarkcircles"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
             </div>
@@ -193,7 +193,7 @@
                     <h2 class="shedual_para">Platelet-Rich Plasma</h2>
                     <p class="sahde_color">Experience the transformative power of Platelet-Rich Plasma Therapy (PRP) for dark circles at Tripura Clinics. PRP therapy harnesses your body's natural healing properties to rejuvenate the under-eye area, reducing the appearance of dark circles and improving skin quality. By stimulating collagen production and enhancing tissue regeneration, PRP therapy delivers long-lasting results, restoring a youthful and revitalized look to your eyes.</p>
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModaldarkcircles"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
                 <div class="col-md-6  d-flex flex-column justify-content-center order-1 order-md-2">
@@ -215,7 +215,7 @@
                     <h2 class="shedual_para">Therapy</h2>
                     <p class="sahde_color">Revitalize your under-eye area with our specialized dark circle therapy at Tripura Clinics. Our tailored treatments target pigmentation and thinning skin, restoring a refreshed and youthful appearance. Using advanced techniques like skin boosters, chemical peels, and Platelet-Rich Plasma (PRP) therapy, we hydrate the skin and stimulate collagen production for long-lasting results. Say goodbye to tired-looking eyes with our customized dark circle therapy at Tripura Clinics. Schedule your consultation today for a refreshed and rejuvenated look.</p>
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModaldarkcircles"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
                
@@ -234,7 +234,7 @@
                     <p class="sahde_color">Achieve a rested and youthful appearance with our expertly administered dermal filler treatments at Tripura Clinics. Our skilled practitioners use premium dermal fillers to replenish lost volume under the eyes, effectively reducing the appearance of dark circles and hollowing. With natural-looking results and minimal downtime, our dermal filler treatments offer a non-surgical solution for rejuvenating tired-looking eyes.
                     </p>
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModaldarkcircles"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
                 <div class="col-md-6  d-flex flex-column justify-content-center order-1 order-md-2">

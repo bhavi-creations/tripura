@@ -134,7 +134,7 @@ crossorigin="anonymous"></script>
                     <h2 class="shedual_para">Tattoo Removal</h2>
                     <p class="sahde_color">Say goodbye to unwanted tattoos with our advanced removal techniques at Tripura Clinics. Utilizing innovative technologies, we safely and effectively eliminate tattoos, restoring your skin to its natural beauty. Whether you're seeking to erase a regrettable tattoo or remove one for professional or personal reasons, our expert dermatologists tailor treatments to your unique needs, providing noticeable results and renewed confidence.</p>
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalothers"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
             </div>
@@ -151,7 +151,7 @@ crossorigin="anonymous"></script>
                     <h2 class="shedual_para">Stretch Marks Removal</h2>
                     <p class="sahde_color">Bid farewell to stretch marks with our advanced removal techniques at Tripura Clinics. Using state-of-the-art procedures, we safely and effectively diminish the appearance of stretch marks caused by pregnancy, weight fluctuations, or other factors. Our expert dermatologists tailor treatments to your unique needs, providing noticeable results and renewed confidence. Whether you're looking to smooth out stretch marks or improve the texture of your skin, we're here to help you achieve your goals.</p>
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalothers"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
                 <div class="col-md-6  d-flex flex-column justify-content-center order-1 order-md-2">
@@ -174,7 +174,7 @@ crossorigin="anonymous"></script>
                     <h2 class="shedual_para">Keloids</h2>
                     <p class="sahde_color">Say goodbye to keloid scars with our specialized treatment options at Tripura Clinics. Keloids can be effectively treated using a combination of techniques, including laser therapy, steroid injections, and surgical excision. Our experienced dermatologists employ personalized treatment plans to flatten and soften keloid scars, restoring a smoother and more even skin texture. Trust in our expertise to help you achieve the clear, scar-free skin you desire.</p>
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalothers"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
             </div>
@@ -191,7 +191,7 @@ crossorigin="anonymous"></script>
                     <h2 class="shedual_para">Far Lobe Prepair</h2>
                     <p class="sahde_color">Get ready for a flawless far lobe piercing experience at Tripura Clinics! Our expert piercers are dedicated to ensuring a safe and comfortable procedure for you. With strict adherence to hygiene protocols and precision techniques, you can trust us to deliver a professional and satisfying piercing experience. From choosing the perfect placement to providing aftercare instructions, we are here to make your far lobe piercing journey smooth and enjoyable. Trust Tripura Clinics for a piercing experience that combines professionalism, expertise, and care for stunning results.</p>
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalothers"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
                 <div class="col-md-6  d-flex flex-column justify-content-center order-1 order-md-2">
@@ -213,7 +213,7 @@ crossorigin="anonymous"></script>
                     <h2 class="shedual_para">Ear Piercing</h2>
                     <p class="sahde_color">Experience safe and hygienic ear piercing procedures at Tripura Clinics. Our trained professionals ensure a comfortable and sterile environment, using sterile equipment and following strict hygiene protocols. Whether you're looking to adorn your ears with stylish piercings, you can trust our gentle and precise techniques for optimal results with minimal discomfort.</p>
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalothers"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
                
@@ -231,7 +231,7 @@ crossorigin="anonymous"></script>
                     <h2 class="shedual_para">Skin Tag Removal</h2>
                     <p class="sahde_color">Experience safe and hygienic skin tag removal procedures at Tripura Clinics. Our trained professionals ensure a comfortable and sterile environment, using sterile equipment and following strict hygiene protocols. Whether you're looking to remove bothersome skin tags, you can trust our gentle and precise techniques for optimal results with minimal discomfort.</p>
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalothers"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
                 <div class="col-md-6  d-flex flex-column justify-content-center order-1 order-md-1">
@@ -254,7 +254,7 @@ crossorigin="anonymous"></script>
                     <p class="sahde_color">
                         Receive comprehensive care and support for HIV-related skin concerns at Tripura Clinics. Our specialized treatments and support services are tailored to address the unique needs of individuals living with HIV. From dermatological interventions for HIV-related skin conditions to compassionate care and guidance, trust Tripura Clinics to support you every step of the way with dignity, respect, and confidentiality.</p>
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalothers"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
                
@@ -273,7 +273,7 @@ crossorigin="anonymous"></script>
                 <p class="sahde_color">Receive comprehensive care and support for sexual health issues at Tripura Clinics. Our specialized treatments and support services are tailored to address sexual health challenges. From confidential counseling to education on sexual health matters, trust Tripura Clinics to provide holistic care and guidance with dignity, respect, and confidentiality.
                 </p>
                 <div class="btn_flex_center">
-                    <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalothers"> Schedule Now!</button>
+                    <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                 </div>
             </div>
             <div class="col-md-6  d-flex flex-column justify-content-center order-1 order-md-2">

@@ -136,7 +136,7 @@
                     <h2 class="shedual_para">Advanced Acne Scars</h2>
                     <p class="sahde_color">Embark on a journey to smoother skin with our advanced acne scar treatments at Tripura Clinics. Our experts utilize cutting-edge techniques such as microneedling and radiofrequency to effectively minimize the appearance of acne scars and improve skin texture. By stimulating collagen production and promoting skin regeneration, these treatments help fade scars and restore a more even complexion.</p>
                     <div class="btn_flex_center">
-                        <a href="#" style="text-decoration: none;"><button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalAcne"> Schedule Now!</button></a>
+                        <a href="#" style="text-decoration: none;"><button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button></a>
                     </div>
                 </div>
             </div>
@@ -155,7 +155,7 @@
                     </p>
                    
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalAcne"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
                 <div class="col-md-6  d-flex flex-column justify-content-center order-1 order-md-2">
@@ -179,7 +179,7 @@
                     <p class="sahde_color">Radiofrequency therapy offers a non-invasive solution to target acne bacteria and promote collagen production, helping to reduce acne breakouts and improve overall skin clarity. By delivering controlled heat energy to the deeper layers of the skin, radiofrequency treatments can effectively kill acne-causing bacteria while stimulating collagen remodeling for a more radiant and blemish-free complexion.
                     </p>
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalAcne"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
             </div>
@@ -198,7 +198,7 @@
                     </p>
                     
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalAcne"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
                 <div class="col-md-6  d-flex flex-column justify-content-center order-1 order-md-2">
@@ -220,7 +220,7 @@
                     <h2 class="shedual_para">Light Therapy</h2>
                     <p class="sahde_color">Revitalize Your Skin with Light Therapy Treatments Harness the power of light therapy to effectively treat acne and reduce inflammation, promoting clearer, healthier-looking skin without harsh side effects. Light therapy harnesses targeted wavelengths of light to combat acne, reducing inflammation and promoting healing for a clearer and healthier complexion. By penetrating deep into the skin, light therapy can effectively kill acne-causing bacteria while calming existing breakouts and preventing future flare-ups.</p>
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalAcne"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
                
@@ -239,7 +239,7 @@
                     <p class="sahde_color">Laser treatments provide a powerful solution to achieve clearer skin by targeting acne bacteria and minimizing pore size. With precise laser technology, we can address acne at its source, stimulating collagen production and promoting skin renewal for a smoother and more even skin tone. Whether you're struggling with acne breakouts, uneven skin texture, or enlarged pores, our laser treatments can help you achieve your skincare goals.</p>
                     
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalAcne"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
                 <div class="col-md-6  d-flex flex-column justify-content-center order-1 order-md-2">
@@ -262,7 +262,7 @@
                     <p class="sahde_color">Revitalize Your Skin with Exfoliating Chemical Peels Renew your skin and reduce acne scars with the transformative power of chemical peels. Chemical peels offer a gentle yet effective exfoliation method to remove dead skin cells, unclog pores, and reveal a smoother, more radiant complexion. By applying a customized solution to the skin, chemical peels help stimulate cell turnover, boost collagen production, and fade acne scars for a rejuvenated appearance. Whether you're looking to address acne scars, uneven skin tone, or dullness, chemical peels can help you achieve a fresher, more youthful complexion. </p>
                     
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalAcne"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
                

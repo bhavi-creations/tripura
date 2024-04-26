@@ -135,7 +135,7 @@
                     <p class="sahde_color">For Tripura Skin and Cosmetology Clinic, laser skin reduction offers a precise and long-lasting solution for targeting unwanted hair. Our advanced laser technology effectively destroys hair follicles at the root, leading to smooth and hair-free skin. Say goodbye to the hassle of frequent shaving or waxing and enjoy the lasting results of our laser skin reduction treatments.
                     </p>
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalhair"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
              
@@ -154,7 +154,7 @@
                     <p class="sahde_color">PRP therapy at Tripura Skin and Cosmetology Clinic is a natural and effective way to promote hair growth and improve hair health. By using your body's own platelet-rich plasma, this treatment stimulates hair follicles, increases blood flow to the scalp, and encourages the growth of thicker, healthier hair. Experience the benefits of PRP therapy for natural hair restoration and rejuvenation.
                     </p>
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalhair"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                    
                 </div>
@@ -179,7 +179,7 @@
                     <p class="sahde_color">GFC Therapy, or Growth Factor Concentrate therapy, is a cutting-edge treatment that stimulates hair follicles and rejuvenates the scalp. By harnessing the power of growth factors, GFC therapy promotes cell growth, collagen production, and blood circulation in the scalp. This process helps strengthen hair follicles, improve hair density, and revitalize the scalp, leading to healthier and more vibrant hair growth. Experience the transformative effects of GFC Therapy at our clinic for optimal scalp rejuvenation and hair restoration.
                     </p>
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalhair"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
             </div>
@@ -197,7 +197,7 @@
                     <p class="sahde_color">LED therapy plays a crucial role in enhancing hair growth and addressing scalp conditions by using low-level light energy to stimulate cellular activity. This non-invasive treatment helps increase blood flow to the scalp, promote hair follicle activity, and reduce inflammation, creating an optimal environment for healthy hair growth. LED therapy is safe, painless, and effective in improving scalp health and supporting hair growth. Discover the benefits of LED therapy at our clinic for healthier, stronger hair and a revitalized scalp.
                     </p>
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalhair"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
                 <div class="col-md-6  d-flex flex-column justify-content-center mt-3 order-1 order-md-2">
