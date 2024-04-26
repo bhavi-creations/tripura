@@ -8,6 +8,9 @@
     <meta name="keywords" content="your,keywords,here">
     <meta name="author" content="Your Name">
 
+    <!-- favicon  -->
+    <link rel="icon" href="./assets/images/nav_logo.png" type="image/x-icon">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -17,18 +20,11 @@
 
     <!-- Font Awesome  -->
     <script src="https://kit.fontawesome.com/742df65007.js" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/742df65007.js" crossorigin="anonymous"></script>
 
     <title>Tripura Skin and Cosmetology Clinic</title>
     <link rel="icon" href="assests/images/Logo.png" type="image/x-icon">
 
     <link rel="stylesheet" href="assets/style.css">
-    <link rel="stylesheet" href="assets/index.css">
-
-    <script src="https://kit.fontawesome.com/742df65007.js" crossorigin="anonymous"></script>
-
-    <!-- favicon  -->
-    <link rel="icon" href="./assets/images/nav_logo.png" type="image/x-icon">
 
     <!-- For Modal links  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -46,20 +42,20 @@
         <div class="nav_bar">
             <nav class="navbar navbar-expand-lg d-none d-lg-block">
                 <div class="container-fluid">
-                    <a href="index.html"><img src="assets/images/nav_logo.png" alt="nav_logo" class="img-fluid"></a>
+                    <a href="index.php"><img src="assets/images/nav_logo.png" alt="nav_logo" class="img-fluid"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse ms-5 row text-center" id="navbarNavAltMarkup">
                         <div class="navbar-nav col-lg-7 d-flex flex-row justify-content-between">
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link active" aria-current="page" href="index.html">Home</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="about.html">About Us</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="service.html">Service</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="blog.html">Blog</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="contact.html">Contact</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link active" aria-current="page" href="index.php">Home</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="about.php">About Us</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="service.php">Service</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="blog.php">Blog</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="contact.php">Contact</a>
                         </div>
                         <div class="col-lg-2">
-                           <img src="assets/images/appointimg.png" class="img-fluid"  data-bs-toggle="modal" data-bs-target="#exampleModal"/>
+                           <img src="assets/images/appointimg.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#exampleModal"/>
                         </div>
                         <div class="col-lg-3">
                             <button class="btn btn-primary nav_btn"><svg xmlns="http://www.w3.org/2000/svg" width="17"
@@ -83,14 +79,14 @@
                     </button>
                     <div class="collapse navbar-collapse ms-5" id="navbarNavAltMarkup2">
                         <div class="navbar-nav">
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link active" aria-current="page" href="index.html">Home</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="about.html">About Us</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="service.html">Service</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="blog.html">Blog</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="contact.html">Contact</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link active" aria-current="page" href="index.php">Home</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="about.php">About Us</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="service.php">Service</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="blog.php">Blog</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="contact.php">Contact</a>
                         </div>
                         <div>
-                            <img src="assets/images/appointimg.png" class="img-fluid"  data-bs-toggle="modal" data-bs-target="#exampleModal"/>
+                            <img src="assets/images/appointimg.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#exampleModal"/>
                         </div>
                         <div class="my-2">
                             <button class="btn btn-primary nav_btn"><svg xmlns="http://www.w3.org/2000/svg" width="17"
@@ -106,149 +102,103 @@
         </div>
     </section>
 
-    <div class="section1 mt-5">
+    <div class="section2_blogsdetail mt-5">
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <h1 class="blogs-head" style="font-size: 42px;">Age Control</h1>
-                    <div class="d-flex flex-row justify-content-center">
-                        <svg  xmlns="http://www.w3.org/2000/svg" width="326" height="13" viewBox="0 0 326 13" fill="none">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.49402 10.368C14.4034 9.59066 32.5617 9.55179 81.8547 9.47405C158.827 9.35744 219.917 8.50234 236.895 7.25853C238.243 7.14193 130.347 6.28681 119.267 6.90871C101.993 7.91931 19.5012 7.06419 2.90174 5.89812C-1.81689 5.58717 -0.0473825 4.49884 3.02815 4.26562C7.83102 3.87694 20.7231 3.91581 56.0707 3.99355C80.9278 4.03242 278.689 3.13843 300.302 1.5448C312.435 0.65082 319.808 -0.165424 323.179 0.0289192C326.001 0.184395 326.044 0.65082 323.6 1.93349C321.957 2.78861 323.811 3.29391 324.99 3.52712C326.802 3.91581 326.043 5.23735 323.768 6.28681C320.693 7.72496 315.384 7.68609 317.912 6.24794C318.46 5.93699 318.586 5.15961 316.648 5.31509C311.003 5.78152 271.105 8.96876 260.278 9.51292C144.671 15.421 31.8455 11.1066 7.95741 12.5447C-0.510838 13.0889 3.36523 10.8345 7.49402 10.368Z" fill="#25B4F8"/>
-                          </svg>
+                <div class="col-12 col-md-8 ">
+                    <h1 class="blogs_details_heading"> "Summer Skin Care: Your Guide to Radiant Skin in the Heat" </h1>
+                    <!-- <p class="blogs_details_para">As the temperature rises, so do the challenges for maintaining healthy, radiant skin. In this blog post, we'll explore a comprehensive guide to summer skin care, tailored specifically to combat the effects of heat, humidity, and increased sun exposure.</p> -->
+                    <div class="row">
+                        <div class="col-6">
+                            <!-- <p class="blogs_details_para">March 08, 2023  5:16 AM</p> -->
+                        </div>
+                        <!-- <div class="col-6">
+                            <div class="d-flex flex-row justify-content-end">
+                                <img src="assets/images/blog_share.png" class="img-fluid"/>
+                                <img src="assets/images/blog_insta.png" class="img-fluid ms-3"/>
+                                <img src="assets/images/blog_fb.png" class="img-fluid ms-3"/>
+                                <img src="assets/images/blog_twitter.png" class="img-fluid ms-3"/>
+                            </div>
+                        </div> -->
                     </div>
-                    <p class="blogs_para alignments mt-2">Achieve timeless beauty and youthful radiance with our age control treatments, carefully crafted to address the signs of aging and restore a vibrant, rejuvenated appearance.</p>
+                    <img src="assets/images/blog1_img1.png" class="img-fluid mt-3 mb-3" style="border-radius: 50px;"/>
+                    <p class="blogs_details_para2 sahde_color mt-2">As the sun shines brighter and temperatures rise, it's essential to adapt your skincare routine to protect your skin from the harsh effects of summer. At Tripura Skin and Cosmetology Clinic, we understand the importance of maintaining healthy and glowing skin year-round. In this blog post, we'll share expert tips and highlight our services to help you achieve radiant skin this summer.</p>
+                    <!-- <p class="blogs_details_para2">Facilisi parturient lobortis lacus morbi mi in in proin. Elementum etiam aliquet magnis cursus etiam netus aliquet convallis.</p> -->
+                    <h1 class="sub_heading_blogedetails">Hydration is Key</h1>
+                    <p class="blogs_details_para2 sahde_color">The scorching summer sun can leave your skin dehydrated, leading to dullness and dryness. Ensure you drink plenty of water throughout the day to keep your skin hydrated from within.
+                    </p>
+                    <h1 class="sub_heading_blogedetails">SPF Protection</h1>
+                    <p class="blogs_details_para2 sahde_color">Shield your skin from harmful UV rays by applying a broad-spectrum sunscreen with SPF 30 or higher daily, even on cloudy days. Our clinic offers a range of sunscreen products tailored to different skin types to provide optimal protection.
+                    </p>
+                    <h1 class="sub_heading_blogedetails">Hair Care in the Sun</h1>
+                    <p class="blogs_details_para2 sahde_color">Don't forget to protect your hair from sun damage by wearing a hat or using a UV-protective hair serum. Our hair care services include treatments to repair sun-damaged hair and keep your locks healthy and vibrant.
+                    </p>
+                    <h1 class="sub_heading_blogedetails">Combat Pigmentation</h1>
+                    <p class="blogs_details_para2 sahde_color"> Excessive sun exposure can exacerbate pigmentation issues such as sunspots and melasma. Our pigmentation treatments target these concerns, helping you achieve an even and radiant complexion.</p>
+                    <h1 class="sub_heading_blogedetails">Age Control Solutions</h1>
+                    <p class="blogs_details_para2 sahde_color"> Minimize the signs of aging caused by sun exposure with our age control treatments. From anti-aging serums to rejuvenating facials, we offer personalized solutions to address your specific skin concerns.</p>
+                    <h1 class="sub_heading_blogedetails">Say Goodbye to Dark Circles</h1>
+                    <p class="blogs_details_para2 sahde_color">Lack of sleep and sun exposure can contribute to dark circles under the eyes. Our clinic offers advanced treatments such as under-eye fillers and laser therapy to reduce dark circles and restore a youthful appearance.</p>
+                    <h1 class="sub_heading_blogedetails">Banish Acne and Scars</h1>
+                    <p class="blogs_details_para2 sahde_color">Keep acne at bay with our acne control treatments, which target acne-causing bacteria and reduce inflammation. Additionally, our acne scar treatments help fade scars and improve skin texture, giving you smooth and clear skin.
+                    </p>
+                    <h1 class="sub_heading_blogedetails">Glowing Skin Secrets</h1>
+                    <p class="blogs_details_para2">Achieve a radiant complexion with our glowing skin treatments, including chemical peels, microdermabrasion, and laser facials. These treatments exfoliate dead skin cells and stimulate collagen production for healthy and luminous skin.</p>
+                    <h1 class="sub_heading_blogedetails">Conclusion</h1>
+                    <p class="blogs_details_para2">This summer, prioritize your skin's health and beauty with our expert tips and professional services at Tripura Skin and Cosmetology Clinic. Whether you're dealing with pigmentation issues, acne, or simply want to maintain a glowing complexion, we're here to help you look and feel your best all season long.</p>                   
                 </div>
+                <div class="col-12 col-md-4">
+                    <div class="d-flex flex-row">
+                        <h1 class="news_heading">Hot News</h1>
+                        <img src="assets/images/newsimg1.png" class="img-fluid ms-2 mb-2"/>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 mt-2">
+                            <img src="assets/images/blogicons/1.png" class="img-fluid"/>
+                        </div>
+                        <div class="col-8 mt-2">
+                            <h1 class="blogs_details_para">New SPF breakthrough offers superior sun protection.</h1>
+                        </div>
+                        <div class="col-4 mt-2">
+                            <img src="assets/images/blogicons/2.png" class="img-fluid"/>
+                        </div>
+                        <div class="col-8 mt-2">
+                            <h1 class="blogs_details_para">Celebrities swear by natural summer skincare remedies.</h1>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row">
+                        <h1 class="news_heading">TRENDING NEWS</h1>
+                        <img src="assets/images/newsimg2.png" class="img-fluid ms-2 mb-2"/>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 mt-2">
+                            <img src="assets/images/blogicons/3.png" class="img-fluid"/>
+                        </div>
+                        <div class="col-8 mt-2">
+                            <h1 class="blogs_details_para">DIY face mask trends for glowing summer skin.</h1>
+                        </div>
+                        <div class="col-4 mt-2">
+                            <img src="assets/images/blogicons/4.png" class="img-fluid"/>
+                        </div>
+                        <div class="col-8 mt-2">
+                            <h1 class="blogs_details_para">Rise in demand for eco-friendly sunscreen alternatives. </h1>
+                        </div>
+                        <div class="col-4 mt-2">
+                            <img src="assets/images/blogicons/5.png" class="img-fluid"/>
+                        </div>
+                        <div class="col-8 mt-2">
+                            <h1 class="blogs_details_para">Experts warn of dehydration risks in summer heat.</h1>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
 
-    <!-- Botulinum Toxin & Fillers -->
-    <section id="Botulinum_Toxin">
-        <div class="container mt-5  div_first_con">
-            <div class="row">
-                <div class="col-md-6  d-flex flex-column justify-content-center   mt-2">
-                    <img src="assets/images/botellium  lar.png" class=" doc_img_one img-fluid" alt="...">
-
-                </div>
-                <div class="col-md-6  ">
-                    <h6 class="shedual_heading">Make a Schedule</h6>
-                    <h2 class="shedual_para">Botulinum Toxin & Fillers</h2>
-                    <p class="sahde_color">Rediscover Your Radiance at Tripura Skin and Cosmetology Clinic with Botulinum Toxin & Fillers Unveil a new chapter of beauty and confidence at Tripura Skin and Cosmetology Clinic, where expert care meets advanced treatments in botulinum toxin and fillers. At Tripura Skin and Cosmetology Clinic, we understand that each individual is unique, which is why we take a personalized approach to every treatment to ensure optimal results that enhance your natural beauty. Experience the art of youthful rejuvenation at Tripura Skin and Cosmetology Clinic - where beauty meets expertise, and confidence meets transformation.</p>
-                  
-                    <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalAge"> Schedule Now!</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Threadlift -->
-    <section id="Threadlift">
-        <div class="container mt-5  div_first_con">
-            <div class="row">
-               
-                <div class="col-md-6 order-2 order-md-1">
-                    <h6 class="shedual_heading">Make a Schedule</h6>
-                    <h2 class="shedual_para">Threadlift</h2>
-                    <p class="sahde_color">Achieve a lifted and contoured appearance without surgery with Threadlift treatment at Tripura Clinics. This non-invasive procedure involves inserting dissolvable threads under the skin to lift and support sagging tissues, providing a rejuvenated and more youthful appearance. Threadlift is an ideal option for those seeking to address sagging skin and achieve natural-looking results without the downtime associated with surgery. Experience the transformative effects of Threadlift and reclaim a firmer, more radiant complexion at Tripura Clinics.</p>
-                   
-                    <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalAge"> Schedule Now!</button>
-                    </div>
-                </div>
-                <div class="col-md-6  d-flex flex-column justify-content-center order-1 order-md-2">
-                    <img src="assets/images/threadlift large.png" class=" doc_img_one img-fluid" alt="...">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- HiFU -->
-    <section id="HiFU">
-        <div class="container mt-5  div_first_con">
-            <div class="row">
-                <div class="col-md-6  d-flex flex-column justify-content-center order-1 order-md-1 mt-2">
-                    <img src="assets/images/HIFU large.png" class=" doc_img_one img-fluid" alt="...">
-                </div>
-                <div class="col-md-6  order-2 order-md-2">
-                    <h6 class="shedual_heading">Make a Schedule</h6>
-                    <h2 class="shedual_para">HiFU</h2>
-                    <p class="sahde_color">Rejuvenate your skin and tighten sagging tissues with HiFU treatment at Tripura Clinics. High-Intensity Focused Ultrasound (HiFU) utilizes ultrasound energy to stimulate collagen production and tighten the skin, resulting in a firmer and more youthful appearance. This non-invasive procedure offers long-lasting results without the need for surgery, making it an ideal choice for individuals seeking facial rejuvenation. Experience the rejuvenating effects of HiFU and uncover a more lifted and radiant complexion at Tripura Clinics.</p>
-                    <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalAge"> Schedule Now!</button>
-                    </div>
-                </div>
-               
-            </div>
-        </div>
-    </section>
-
-    <!-- MNRF -->
-    <section id="MNRF">
-        <div class="container mt-5  div_first_con">
-            <div class="row">
-               
-                <div class="col-md-6 order-2 order-md-1">
-                    <h6 class="shedual_heading">Make a Schedule</h6>
-                    <h2 class="shedual_para">MNRF</h2>
-                    <p class="sahde_color">Transform your skin with MNRF (Microneedling Radiofrequency) treatment at Tripura Clinics. This advanced procedure combines microneedling technology with radiofrequency energy to significantly improve skin texture and reduce signs of aging such as wrinkles and fine lines. Tiny needles create micro-injuries in the skin, stimulating collagen production and promoting skin renewal. The addition of radiofrequency energy enhances the effects, resulting in smoother, firmer skin with reduced wrinkles and fine lines. Experience the rejuvenating benefits of MNRF treatment and achieve a more youthful complexion at Tripura Clinics.</p>
-                    <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalAge"> Schedule Now!</button>
-                    </div>
-                </div>
-                <div class="col-md-6  d-flex flex-column justify-content-center mt-2 order-1 order-md-2">
-                    <img src="assets/images/mnrf large.png" class=" doc_img_one img-fluid" alt="...">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Laser Resurfacing -->
-    <section id="Laser_Resurfacing">
-        <div class="container mt-5  div_first_con">
-            <div class="row">
-                <div class="col-md-6  d-flex flex-column justify-content-center order-1 order-md-1 mt-2">
-                    <img src="assets/images/laser resurfacing  lar.png" class=" doc_img_one img-fluid" alt="...">
-                </div>
-                <div class="col-md-6  order-2 order-md-2">
-                    <h6 class="shedual_heading">Make a Schedule</h6>
-                    <h2 class="shedual_para">Laser Resurfacing</h2>
-                    <p class="sahde_color">Reveal smoother, more radiant skin with Laser Resurfacing treatment at Tripura Clinics. This advanced procedure targets specific skin concerns with precision, promoting collagen production and improving skin texture. Whether you're looking to reduce wrinkles, fine lines, or uneven pigmentation, Laser Resurfacing offers effective rejuvenation and enhancement of overall skin quality. Experience the transformative effects of Laser Resurfacing and uncover a more youthful and refreshed complexion at Tripura Clinics.</p>
-                   
-                    <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalAge"> Schedule Now!</button>
-                    </div>
-                </div>
-               
-            </div>
-        </div>
-    </section>
-
-    <!-- Antiaging Peels -->
-    <section id="Antiaging_Peels">
-        <div class="container mt-5  div_first_con">
-            <div class="row">
-                
-                <div class="col-md-6 order-2 order-md-1">
-                    <h6 class="shedual_heading">Make a Schedule</h6>
-                    <h2 class="shedual_para">Antiaging Peels</h2>
-                    <p class="sahde_color">Anti-aging peels offer numerous benefits for your skin. Formulated with potent ingredients like AHAs and BHAs, these peels exfoliate your skin, removing dead cells and stimulating renewal. This process improves texture, reduces fine lines, and enhances radiance. Moreover, they boost collagen production, hydrate your skin, and improve elasticity, resulting in a firmer, more youthful appearance. Incorporate anti-aging peels into your skincare routine for a healthier, rejuvenated complexion.
-                    </p>
-                    <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalAge"> Schedule Now!</button>
-                    </div>
-                </div>
-                <div class="col-md-6  d-flex flex-column justify-content-center mt-2 order-1 order-md-2" >
-                    <img src="assets/images/anti aging large (1).png" class=" doc_img_one img-fluid" alt="...">
-                </div>
-            </div>
-        </div>
-    </section>
-
-   <!-- Model  -->
-   <?php include 'modal.php' ?>
+    <!-- Model  -->
+    <?php include 'modal.php' ?>
 
 <!-- Scroll Up Button  -->
 <button id="scrollBtn" onclick="scrollToTop()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
@@ -291,11 +241,11 @@
                             <p style="font-weight: 700;" class="footer_get2">Get in touch</p>
                         </div>
                         <div class=" col-lg-6 d-flex flex-row justify-content-between order-1 order-md-1 order-lg-2">
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer active" aria-current="page" href="index.html">Home</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="about.html">About Us</a>
-                            <a  style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="service.html">Service</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="blog.html">Blog</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="contact.html">Contact</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer active" aria-current="page" href="index.php">Home</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="about.php">About Us</a>
+                            <a  style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="service.php">Service</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="blog.php">Blog</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="contact.php">Contact</a>
                         </div>
                     </div>
                     <div class="row">

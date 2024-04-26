@@ -8,10 +8,6 @@
     <meta name="keywords" content="your,keywords,here">
     <meta name="author" content="Your Name">
 
-    <!-- favicon  -->
-    <link rel="icon" href="./assets/images/nav_logo.png" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/742df65007.js" crossorigin="anonymous"></script>
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -30,13 +26,15 @@
 
     <script src="https://kit.fontawesome.com/742df65007.js" crossorigin="anonymous"></script>
 
+    <!-- favicon  -->
+    <link rel="icon" href="./assets/images/nav_logo.png" type="image/x-icon">
+
     <!-- For Modal links  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
-
 
 </head>
 
@@ -47,17 +45,17 @@
         <div class="nav_bar">
             <nav class="navbar navbar-expand-lg d-none d-lg-block">
                 <div class="container-fluid">
-                    <a href="index.html"><img src="assets/images/nav_logo.png" alt="nav_logo" class="img-fluid"></a>
+                    <a href="index.php"><img src="assets/images/nav_logo.png" alt="nav_logo" class="img-fluid"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse ms-5 row text-center" id="navbarNavAltMarkup">
                         <div class="navbar-nav col-lg-7 d-flex flex-row justify-content-between">
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link active" aria-current="page" href="index.html">Home</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="about.html">About Us</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="service.html">Service</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="blog.html">Blog</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="contact.html">Contact</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link active" aria-current="page" href="index.php">Home</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="about.php">About Us</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="service.php">Service</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="blog.php">Blog</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="contact.php">Contact</a>
                         </div>
                         <div class="col-lg-2">
                            <img src="assets/images/appointimg.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#exampleModal"/>
@@ -84,11 +82,11 @@
                     </button>
                     <div class="collapse navbar-collapse ms-5" id="navbarNavAltMarkup2">
                         <div class="navbar-nav">
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link active" aria-current="page" href="index.html">Home</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="about.html">About Us</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="service.html">Service</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="blog.html">Blog</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="contact.html">Contact</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link active" aria-current="page" href="index.php">Home</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="about.php">About Us</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="service.php">Service</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="blog.php">Blog</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="contact.php">Contact</a>
                         </div>
                         <div>
                             <img src="assets/images/appointimg.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#exampleModal"/>
@@ -111,170 +109,108 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="blogs-head" style="font-size: 42px;">Acne & Acne Scars Treatment</h1>
+                    <h1 class="blogs-head" style="font-size: 42px;">Hair Care</h1>
                     <div class="d-flex flex-row justify-content-center">
                         <svg  xmlns="http://www.w3.org/2000/svg" width="326" height="13" viewBox="0 0 326 13" fill="none">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M7.49402 10.368C14.4034 9.59066 32.5617 9.55179 81.8547 9.47405C158.827 9.35744 219.917 8.50234 236.895 7.25853C238.243 7.14193 130.347 6.28681 119.267 6.90871C101.993 7.91931 19.5012 7.06419 2.90174 5.89812C-1.81689 5.58717 -0.0473825 4.49884 3.02815 4.26562C7.83102 3.87694 20.7231 3.91581 56.0707 3.99355C80.9278 4.03242 278.689 3.13843 300.302 1.5448C312.435 0.65082 319.808 -0.165424 323.179 0.0289192C326.001 0.184395 326.044 0.65082 323.6 1.93349C321.957 2.78861 323.811 3.29391 324.99 3.52712C326.802 3.91581 326.043 5.23735 323.768 6.28681C320.693 7.72496 315.384 7.68609 317.912 6.24794C318.46 5.93699 318.586 5.15961 316.648 5.31509C311.003 5.78152 271.105 8.96876 260.278 9.51292C144.671 15.421 31.8455 11.1066 7.95741 12.5447C-0.510838 13.0889 3.36523 10.8345 7.49402 10.368Z" fill="#25B4F8"/>
                           </svg>
                     </div>
-                    <p class="blogs_para alignments mt-2">Achieve clear, smooth skin with our comprehensive acne and acne scars treatment, combining advanced techniques to target active breakouts and minimize the appearance of scars for a radiant complexion.</p>
+                    <p class="blogs_para alignments mt-2">Achieve luscious locks and a healthy scalp with our comprehensive hair care solutions, tailored to address your specific needs and restore vitality to your hair.</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Advanced Acne Scars -->
-    <section id="Advanced_Acne_Scars">
-        <div class="container mt-5  div_first_con">
+    <!-- Laser Skin Reduction -->
+    <section id="laser_skin_reduction">
+        <div class="container mt-5  ">
             <div class="row">
-                <div class="col-md-6  d-flex flex-column justify-content-center order-1 order-md-1 mt-2">
-                    <img src="assets/images/advanced acne scarlarge.png" class=" doc_img_one img-fluid" alt="...">
+                <div class="col-md-6  d-flex flex-column justify-content-center order-2 order-sm-2 order-md-1 mt-2">
+                    <img src="assets/images/laser skin reduction (1).png" class="  img-fluid" alt="..." style="border-top-left-radius: 180px; border-top-right-radius: 180px; border-bottom-right-radius: 180px; border-bottom-left-radius: 180px;">
 
                 </div>
-                <div class="col-md-6 order-2 order-md-2 mt-2">
+                <div class="col-12 col-md-6 mt-3 order-2 order-sm-1 order-md-2">
                     <h6 class="shedual_heading">Make a Schedule</h6>
-                    <h2 class="shedual_para">Advanced Acne Scars</h2>
-                    <p class="sahde_color">Embark on a journey to smoother skin with our advanced acne scar treatments at Tripura Clinics. Our experts utilize cutting-edge techniques such as microneedling and radiofrequency to effectively minimize the appearance of acne scars and improve skin texture. By stimulating collagen production and promoting skin regeneration, these treatments help fade scars and restore a more even complexion.</p>
+                    <h2 class="shedual_para"> Laser Skin Reduction </h2>
+                    <p class="sahde_color">For Tripura Skin and Cosmetology Clinic, laser skin reduction offers a precise and long-lasting solution for targeting unwanted hair. Our advanced laser technology effectively destroys hair follicles at the root, leading to smooth and hair-free skin. Say goodbye to the hassle of frequent shaving or waxing and enjoy the lasting results of our laser skin reduction treatments.
+                    </p>
                     <div class="btn_flex_center">
-                        <a href="#" style="text-decoration: none;"><button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalAcne"> Schedule Now!</button></a>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalhair"> Schedule Now!</button>
                     </div>
                 </div>
+             
             </div>
         </div>
     </section>
 
-    <!-- Microneeding -->
-    <section id="Microneeding">
-        <div class="container mt-5  div_first_con">
+    <!-- PRP -->
+    <section id="PRP">
+        <div class="container mt-5  ">
             <div class="row">
                 
                 <div class="col-md-6 order-2 order-md-1 ">
                     <h6 class="shedual_heading">Make a Schedule</h6>
-                    <h2 class="shedual_para">Microneedling</h2>
-                    <p class="sahde_color">Microneedling is a revolutionary treatment that stimulates collagen production and reduces acne scars, resulting in improved skin texture and tone. By creating tiny micro-injuries with fine needles, microneedling triggers the skin's natural healing process, leading to increased collagen and elastin production for firmer, more youthful-looking skin.
+                    <h2 class="shedual_para"> PRP  </h2>
+                    <p class="sahde_color">PRP therapy at Tripura Skin and Cosmetology Clinic is a natural and effective way to promote hair growth and improve hair health. By using your body's own platelet-rich plasma, this treatment stimulates hair follicles, increases blood flow to the scalp, and encourages the growth of thicker, healthier hair. Experience the benefits of PRP therapy for natural hair restoration and rejuvenation.
                     </p>
+                    <div class="btn_flex_center">
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalhair"> Schedule Now!</button>
+                    </div>
                    
-                    <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalAcne"> Schedule Now!</button>
-                    </div>
                 </div>
                 <div class="col-md-6  d-flex flex-column justify-content-center order-1 order-md-2">
-                    <img src="assets/images/microneedling large.png" class=" doc_img_one img-fluid" alt="...">
+                    <img src="assets/images/PRP therapy (1).png" class=" doc_img_one img-fluid" alt="..." style="border-top-left-radius: 180px; border-top-right-radius: 180px; border-bottom-right-radius: 180px; border-bottom-left-radius: 180px;">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Radio Frequency -->
-    <section id="Radio_Frequency">
+    <!-- GFC Therapy -->
+    <section id="GFC_Therapy">
         <div class="container mt-5  div_first_con">
             <div class="row">
-                <div class="col-md-6  d-flex flex-column justify-content-center order-1 order-md-1 mt-2">
-                    <img src="assets/images/radiofreq large (1).png" class=" doc_img_one img-fluid" alt="...">
+                <div class="col-md-6  d-flex flex-column justify-content-center  mt-2 order-1 order-md-1">
+                    <img src="assets/images/gfc2 (1).png" class=" doc_img_one img-fluid" alt="...">
 
                 </div>
-                <div class="col-md-6  order-2 order-md-2 mt-2">
+                <div class="col-md-6 order-2 order-md-2 ">
                     <h6 class="shedual_heading">Make a Schedule</h6>
-                    <h2 class="shedual_para">Radio Frequency</h2>
-                    <p class="sahde_color">Radiofrequency therapy offers a non-invasive solution to target acne bacteria and promote collagen production, helping to reduce acne breakouts and improve overall skin clarity. By delivering controlled heat energy to the deeper layers of the skin, radiofrequency treatments can effectively kill acne-causing bacteria while stimulating collagen remodeling for a more radiant and blemish-free complexion.
+                    <h2 class="shedual_para"> GFC Therapy </h2>
+                    <p class="sahde_color">GFC Therapy, or Growth Factor Concentrate therapy, is a cutting-edge treatment that stimulates hair follicles and rejuvenates the scalp. By harnessing the power of growth factors, GFC therapy promotes cell growth, collagen production, and blood circulation in the scalp. This process helps strengthen hair follicles, improve hair density, and revitalize the scalp, leading to healthier and more vibrant hair growth. Experience the transformative effects of GFC Therapy at our clinic for optimal scalp rejuvenation and hair restoration.
                     </p>
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalAcne"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalhair"> Schedule Now!</button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Micro Therma Brasion -->
-    <section id="Micro_Therma_Brasion">
-        <div class="container mt-5  div_first_con">
+    <!-- LED Therapy -->
+    <section id="LED_Therapy">
+        <div class="container mt-5  ">
             <div class="row">
                 
                 <div class="col-md-6 order-2 order-md-1">
                     <h6 class="shedual_heading">Make a Schedule</h6>
-                    <h2 class="shedual_para">Micro Therma Brasion</h2>
-                    <p class="sahde_color">Experience the power of cutting-edge skincare treatments at our clinic to address your skin concerns and achieve a clearer, more radiant complexion. Microdermabrasion offers gentle exfoliation to unclog pores and improve skin texture, revealing smoother and more luminous skin. By removing dead skin cells and stimulating cell turnover, microdermabrasion can help diminish the appearance of fine lines, acne scars, and uneven skin tone.
+                    <h2 class="shedual_para"> LED therapy</h2>
+                    <p class="sahde_color">LED therapy plays a crucial role in enhancing hair growth and addressing scalp conditions by using low-level light energy to stimulate cellular activity. This non-invasive treatment helps increase blood flow to the scalp, promote hair follicle activity, and reduce inflammation, creating an optimal environment for healthy hair growth. LED therapy is safe, painless, and effective in improving scalp health and supporting hair growth. Discover the benefits of LED therapy at our clinic for healthier, stronger hair and a revitalized scalp.
                     </p>
-                    
                     <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalAcne"> Schedule Now!</button>
+                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalhair"> Schedule Now!</button>
                     </div>
                 </div>
-                <div class="col-md-6  d-flex flex-column justify-content-center order-1 order-md-2">
-                    <img src="assets/images/microtherma large.png" class=" doc_img_one img-fluid" alt="...">
+                <div class="col-md-6  d-flex flex-column justify-content-center mt-3 order-1 order-md-2">
+                    <img src="assets/images/LEDTHERAPY BIG (1).png" class=" doc_img_one img-fluid" alt="...">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Light Therapy -->
-    <section id="Light_Therapy">
-        <div class="container mt-5  div_first_con">
-            <div class="row">
-                <div class="col-md-6  d-flex flex-column justify-content-center order-1 order-md-1 mt-2">
-                    <img src="assets/images/light therapylarge.png" class=" doc_img_one img-fluid" alt="...">
-                </div>
-                <div class="col-md-6 d-flex flex-column justify-content-between order-2 order-md-2 mt-2">
-                    <h6 class="shedual_heading">Make a Schedule</h6>
-                    <h2 class="shedual_para">Light Therapy</h2>
-                    <p class="sahde_color">Revitalize Your Skin with Light Therapy Treatments Harness the power of light therapy to effectively treat acne and reduce inflammation, promoting clearer, healthier-looking skin without harsh side effects. Light therapy harnesses targeted wavelengths of light to combat acne, reducing inflammation and promoting healing for a clearer and healthier complexion. By penetrating deep into the skin, light therapy can effectively kill acne-causing bacteria while calming existing breakouts and preventing future flare-ups.</p>
-                    <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalAcne"> Schedule Now!</button>
-                    </div>
-                </div>
-               
-            </div>
-        </div>
-    </section>
+    <!-- Model  -->
+    <?php include 'modal.php' ?>
 
-    <!-- Lasers -->
-    <section id="Lasers">
-        <div class="container mt-5  div_first_con">
-            <div class="row">
-                
-                <div class="col-md-6 order-2 order-md-1">
-                    <h6 class="shedual_heading">Make a Schedule</h6>
-                    <h2 class="shedual_para">Lasers</h2>
-                    <p class="sahde_color">Laser treatments provide a powerful solution to achieve clearer skin by targeting acne bacteria and minimizing pore size. With precise laser technology, we can address acne at its source, stimulating collagen production and promoting skin renewal for a smoother and more even skin tone. Whether you're struggling with acne breakouts, uneven skin texture, or enlarged pores, our laser treatments can help you achieve your skincare goals.</p>
-                    
-                    <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalAcne"> Schedule Now!</button>
-                    </div>
-                </div>
-                <div class="col-md-6  d-flex flex-column justify-content-center order-1 order-md-2">
-                    <img src="assets/images/lasers large.png" class=" doc_img_one img-fluid" alt="...">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Chemical Peels -->
-    <section id="Chemical_Peels">
-        <div class="container mt-5  div_first_con">
-            <div class="row">
-                <div class="col-md-6  d-flex flex-column justify-content-center order-1 order-md-1 mt-2">
-                    <img src="assets/images/chemical samll1.png" class=" doc_img_one img-fluid" alt="...">
-                </div>
-                <div class="col-md-6 d-flex flex-column justify-content-between order-2 order-md-2 mt-2">
-                    <h6 class="shedual_heading">Make a Schedule</h6>
-                    <h2 class="shedual_para">Chemical Peels</h2>
-                    <p class="sahde_color">Revitalize Your Skin with Exfoliating Chemical Peels Renew your skin and reduce acne scars with the transformative power of chemical peels. Chemical peels offer a gentle yet effective exfoliation method to remove dead skin cells, unclog pores, and reveal a smoother, more radiant complexion. By applying a customized solution to the skin, chemical peels help stimulate cell turnover, boost collagen production, and fade acne scars for a rejuvenated appearance. Whether you're looking to address acne scars, uneven skin tone, or dullness, chemical peels can help you achieve a fresher, more youthful complexion. </p>
-                    
-                    <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModalAcne"> Schedule Now!</button>
-                    </div>
-                </div>
-               
-            </div>
-        </div>
-    </section>
-
-  
-        <!-- Model  -->
-        <?php include 'modal.php' ?>
-  
-        <!-- Scroll Up Button  -->
+<!-- Scroll Up Button  -->
 <button id="scrollBtn" onclick="scrollToTop()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
     <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"/>
   </svg></button>
@@ -315,11 +251,11 @@
                             <p style="font-weight: 700;" class="footer_get2">Get in touch</p>
                         </div>
                         <div class=" col-lg-6 d-flex flex-row justify-content-between order-1 order-md-1 order-lg-2">
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer active" aria-current="page" href="index.html">Home</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="about.html">About Us</a>
-                            <a  style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="service.html">Service</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="blog.html">Blog</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="contact.html">Contact</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer active" aria-current="page" href="index.php">Home</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="about.php">About Us</a>
+                            <a  style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="service.php">Service</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="blog.php">Blog</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="contact.php">Contact</a>
                         </div>
                     </div>
                     <div class="row">

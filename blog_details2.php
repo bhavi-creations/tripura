@@ -8,6 +8,9 @@
     <meta name="keywords" content="your,keywords,here">
     <meta name="author" content="Your Name">
 
+    <!-- favicon  -->
+    <link rel="icon" href="./assets/images/nav_logo.png" type="image/x-icon">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -22,12 +25,6 @@
     <link rel="icon" href="assests/images/Logo.png" type="image/x-icon">
 
     <link rel="stylesheet" href="assets/style.css">
-    <link rel="stylesheet" href="assets/index.css">
-
-    <script src="https://kit.fontawesome.com/742df65007.js" crossorigin="anonymous"></script>
-
-    <!-- favicon  -->
-    <link rel="icon" href="./assets/images/nav_logo.png" type="image/x-icon">
 
     <!-- For Modal links  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -45,17 +42,17 @@
         <div class="nav_bar">
             <nav class="navbar navbar-expand-lg d-none d-lg-block">
                 <div class="container-fluid">
-                    <a href="index.html"><img src="assets/images/nav_logo.png" alt="nav_logo" class="img-fluid"></a>
+                    <a href="index.php"><img src="assets/images/nav_logo.png" alt="nav_logo" class="img-fluid"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse ms-5 row text-center" id="navbarNavAltMarkup">
                         <div class="navbar-nav col-lg-7 d-flex flex-row justify-content-between">
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link active" aria-current="page" href="index.html">Home</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="about.html">About Us</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="service.html">Service</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="blog.html">Blog</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="contact.html">Contact</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link active" aria-current="page" href="index.php">Home</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="about.php">About Us</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="service.php">Service</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="blog.php">Blog</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="contact.php">Contact</a>
                         </div>
                         <div class="col-lg-2">
                            <img src="assets/images/appointimg.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#exampleModal"/>
@@ -82,11 +79,11 @@
                     </button>
                     <div class="collapse navbar-collapse ms-5" id="navbarNavAltMarkup2">
                         <div class="navbar-nav">
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link active" aria-current="page" href="index.html">Home</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="about.html">About Us</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="service.html">Service</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="blog.html">Blog</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="contact.html">Contact</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link active" aria-current="page" href="index.php">Home</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="about.php">About Us</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="service.php">Service</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="blog.php">Blog</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="contact.php">Contact</a>
                         </div>
                         <div>
                             <img src="assets/images/appointimg.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#exampleModal"/>
@@ -104,152 +101,95 @@
             </nav>
         </div>
     </section>
-    
-    <div class="section1 mt-5">
+
+    <div class="section2_blogsdetail mt-5">
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <h1 class="blogs-head" style="font-size: 42px;">Dark Circles</h1>
-                    <div class="d-flex flex-row justify-content-center">
-                        <svg  xmlns="http://www.w3.org/2000/svg" width="326" height="13" viewBox="0 0 326 13" fill="none">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.49402 10.368C14.4034 9.59066 32.5617 9.55179 81.8547 9.47405C158.827 9.35744 219.917 8.50234 236.895 7.25853C238.243 7.14193 130.347 6.28681 119.267 6.90871C101.993 7.91931 19.5012 7.06419 2.90174 5.89812C-1.81689 5.58717 -0.0473825 4.49884 3.02815 4.26562C7.83102 3.87694 20.7231 3.91581 56.0707 3.99355C80.9278 4.03242 278.689 3.13843 300.302 1.5448C312.435 0.65082 319.808 -0.165424 323.179 0.0289192C326.001 0.184395 326.044 0.65082 323.6 1.93349C321.957 2.78861 323.811 3.29391 324.99 3.52712C326.802 3.91581 326.043 5.23735 323.768 6.28681C320.693 7.72496 315.384 7.68609 317.912 6.24794C318.46 5.93699 318.586 5.15961 316.648 5.31509C311.003 5.78152 271.105 8.96876 260.278 9.51292C144.671 15.421 31.8455 11.1066 7.95741 12.5447C-0.510838 13.0889 3.36523 10.8345 7.49402 10.368Z" fill="#25B4F8"/>
-                          </svg>
+                <div class="col-12 col-md-8 ">
+                    <h1 class="blogs_details_heading">Beat the Heat: Summer Skin Care Tips for Glowing Skin</h1>
+                    <!-- <p class="blogs_details_para">As the temperature rises, so do the challenges for maintaining healthy, radiant skin. In this blog post, we'll explore a comprehensive guide to summer skin care, tailored specifically to combat the effects of heat, humidity, and increased sun exposure.</p> -->
+                    <div class="row">
+                        <div class="col-6">
+                            <!-- <p class="blogs_details_para">March 08, 2023  5:16 AM</p> -->
+                        </div>
+                        <!-- <div class="col-6">
+                            <div class="d-flex flex-row justify-content-end">
+                                <img src="assets/images/blog_share.png" class="img-fluid"/>
+                                <img src="assets/images/blog_insta.png" class="img-fluid ms-3"/>
+                                <img src="assets/images/blog_fb.png" class="img-fluid ms-3"/>
+                                <img src="assets/images/blog_twitter.png" class="img-fluid ms-3"/>
+                            </div>
+                        </div> -->
                     </div>
-                    <p class="blogs_para alignments mt-2">Say goodbye to tired-looking eyes with our specialized treatments designed to reduce dark circles and rejuvenate the delicate skin around the eyes, restoring a refreshed and youthful appearance.</p>
+                    <img src="assets/images/blog2_img2.png" class="img-fluid mt-3" style="border-radius: 50px;"/>
+                    <p class="blogs_details_para2 mt-3">With the summer heat in full swing, it's time to revamp your skincare routine to keep your skin looking fresh and radiant. At Tripura Skin and Cosmetology Clinic, we specialize in providing personalized skincare solutions to address your unique needs. In this blog post, we'll share expert tips to help you maintain glowing skin all summer long, incorporating our range of services for optimal results.</p>
+                    <!-- <p class="blogs_details_para2">Facilisi parturient lobortis lacus morbi mi in in proin. Elementum etiam aliquet magnis cursus etiam netus aliquet convallis.</p> -->
+                    <h1 class="sub_heading_blogedetails">Cleanse and Exfoliate</h1>
+                    <p class="blogs_details_para2">Start your summer skincare routine with a gentle cleanser to remove sweat, oil, and impurities that can clog pores and lead to breakouts. Incorporate exfoliation into your routine to slough off dead skin cells and reveal a brighter complexion. Our clinic offers professional exfoliating treatments to achieve smoother and more radiant skin.</p>
+                    <h1 class="sub_heading_blogedetails">Lightweight Moisturization</h1>
+                    <p class="blogs_details_para2"> Opt for lightweight, non-comedogenic moisturizers to hydrate your skin without feeling heavy or greasy in the summer heat. Our moisturizing treatments are specially formulated to nourish and hydrate your skin, leaving it soft and supple.</p>
+                    <h1 class="sub_heading_blogedetails">Targeted Treatments for Sun Damage</h1>
+                    <p class="blogs_details_para2"> If you've spent too much time in the sun, our clinic offers specialized treatments to repair and reverse sun damage. From antioxidant-rich serums to laser therapy, we have solutions to combat sunspots, fine lines, and other signs of sun damage.</p>
+                    <h1 class="sub_heading_blogedetails">Sun Protection Beyond SPF</h1>
+                    <p class="blogs_details_para2">While sunscreen is essential, additional sun protection measures can help safeguard your skin from UV damage. Wear protective clothing, seek shade during peak sun hours, and don't forget to reapply sunscreen every two hours. Our clinic offers sun protection products and expert advice to keep your skin safe in the sun.</p>
+                    <h1 class="sub_heading_blogedetails">Cooling Treatments for Sunburn Relief</h1>
+                    <p class="blogs_details_para2">If you do end up with a sunburn, soothe your skin with cooling treatments such as aloe vera gel or hydrating masks. Our clinic also offers calming treatments to reduce inflammation and redness caused by sunburn, helping your skin recover more quickly.</p>
+                  
                 </div>
+                <div class="col-12 col-md-4">
+                    <div class="d-flex flex-row">
+                        <h1 class="news_heading">Hot News</h1>
+                        <img src="assets/images/newsimg1.png" class="img-fluid ms-2 mb-2"/>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 mt-2">
+                            <img src="assets/images/blogicons/1.png" class="img-fluid"/>
+                        </div>
+                        <div class="col-8 mt-2">
+                            <h1 class="blogs_details_para">Breakthrough acne treatment promises clear skin within weeks.</h1>
+                        </div>
+                        <div class="col-4 mt-2">
+                            <img src="assets/images/blogicons/2.png" class="img-fluid"/>
+                        </div>
+                        <div class="col-8 mt-2">
+                            <h1 class="blogs_details_para">Dermatologists warn of maskne surge during summer months.</h1>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row">
+                        <h1 class="news_heading">TRENDING NEWS</h1>
+                        <img src="assets/images/newsimg2.png" class="img-fluid ms-2 mb-2"/>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 mt-2">
+                            <img src="assets/images/blogicons/3.png" class="img-fluid"/>
+                        </div>
+                        <div class="col-8 mt-2">
+                            <h1 class="blogs_details_para">Skincare enthusiasts rave about probiotic acne solutions.</h1>
+                        </div>
+                        <div class="col-4 mt-2">
+                            <img src="assets/images/blogicons/4.png" class="img-fluid"/>
+                        </div>
+                        <div class="col-8 mt-2">
+                            <h1 class="blogs_details_para">TikTok trends highlight cooling skincare routines for acne-prone skin.</h1>
+                        </div>
+                        <div class="col-4 mt-2">
+                            <img src="assets/images/blogicons/5.png" class="img-fluid"/>
+                        </div>
+                        <div class="col-8 mt-2">
+                            <h1 class="blogs_details_para">Experts recommend lightweight SPF for acne-prone skin.</h1>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
 
-    <!-- Skin Booster -->
-    <section id="Skin_Booster">
-        <div class="container mt-5  div_first_con">
-            <div class="row">
-                <div class="col-md-6  d-flex flex-column justify-content-center mt-2">
-                    <img src="assets/images/skin boostrer lar.png" class=" doc_img_one img-fluid" alt="...">
+    <!-- Model  -->
+    <?php include 'modal.php' ?>
 
-                </div>
-                <div class="col-md-6   mt-2">
-                    <h6 class="shedual_heading">Make a Schedule</h6>
-                    <h2 class="shedual_para">Skin Booster</h2>
-                    <p class="sahde_color">Combat under-eye concerns effectively with our specialized skin booster treatment at Tripura Clinics. Our skin boosters are meticulously formulated to hydrate the delicate under-eye area, addressing fine lines, wrinkles, and dark circles. By replenishing lost moisture and stimulating collagen production, our skin boosters deliver a refreshed and rejuvenated appearance, leaving you with brighter, more youthful-looking eyes.
-                    </p>
-                    <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModaldarkcircles"> Schedule Now!</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Chemical Peels -->
-    <section id="Chemical_Peels">
-        <div class="container mt-5  div_first_con">
-            <div class="row">
-                
-                <div class="col-md-6 mt-2 order-2 order-md-1">
-                    <h6 class="shedual_heading">Make a Schedule</h6>
-                    <h2 class="shedual_para">Chemical Peels</h2>
-                    <p class="sahde_color">Revitalize your under-eye skin with our targeted chemical peel treatments at Tripura Clinics. Designed to specifically address pigmentation and uneven skin texture around the eyes, our chemical peels gently exfoliate the skin's surface, revealing a smoother and more radiant complexion. Say goodbye to dark circles and hello to brighter, more refreshed eyes with our customizable chemical peel solutions.</p>
-                    <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModaldarkcircles"> Schedule Now!</button>
-                    </div>
-                </div>
-                <div class="col-md-6  d-flex flex-column justify-content-center order-1 order-md-2">
-                    <img src="assets/images/chemical peels eye  large.png" class=" doc_img_one img-fluid" alt="...">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Laser Therapy -->
-    <section id="Laser_Therapy">
-        <div class="container mt-5  div_first_con">
-            <div class="row">
-                <div class="col-md-6  d-flex flex-column justify-content-center order-1 order-md-1 mt-2">
-                    <img src="assets/images/laser therapy dark  large.png" class=" doc_img_one img-fluid" alt="...">
-
-                </div>
-                <div class="col-md-6  order-2 order-md-2 mt-2">
-                    <h6 class="shedual_heading">Make a Schedule</h6>
-                    <h2 class="shedual_para">Laser Therapy</h2>
-                    <p class="sahde_color">
-                        Illuminate your under-eye area with Laser Therapy at Tripura Clinics. Our advanced laser treatments target dark circles with precision, effectively diminishing their appearance and rejuvenating your skin. By stimulating collagen production and reducing pigmentation, Laser Therapy helps brighten and smooth the delicate skin around your eyes. Experience the transformative effects of Laser Therapy and reclaim a refreshed, more radiant look at Tripura Clinics.</p>
-                    <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModaldarkcircles"> Schedule Now!</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Platelet-Rich Plasma -->
-    <section id="Platelet_Rich_Plasma">
-        <div class="container mt-5  div_first_con">
-            <div class="row">
-                
-                <div class="col-md-6 order-2 order-md-1 ">
-                    <h6 class="shedual_heading">Make a Schedule</h6>
-                    <h2 class="shedual_para">Platelet-Rich Plasma</h2>
-                    <p class="sahde_color">Experience the transformative power of Platelet-Rich Plasma Therapy (PRP) for dark circles at Tripura Clinics. PRP therapy harnesses your body's natural healing properties to rejuvenate the under-eye area, reducing the appearance of dark circles and improving skin quality. By stimulating collagen production and enhancing tissue regeneration, PRP therapy delivers long-lasting results, restoring a youthful and revitalized look to your eyes.</p>
-                    <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModaldarkcircles"> Schedule Now!</button>
-                    </div>
-                </div>
-                <div class="col-md-6  d-flex flex-column justify-content-center order-1 order-md-2">
-                    <img src="assets/images/PRP dark circle.png" class=" doc_img_one img-fluid" alt="...">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Therapy -->
-    <section id="Therapy">
-        <div class="container mt-5  div_first_con">
-            <div class="row">
-                <div class="col-md-6  d-flex flex-column justify-content-center order-1 order-md-1 mt-2">
-                    <img src="assets/images/therapy.png" class=" doc_img_one img-fluid" alt="...">
-                </div>
-                <div class="col-md-6 order-2 order-md-2 mt-2">
-                    <h6 class="shedual_heading">Make a Schedule</h6>
-                    <h2 class="shedual_para">Therapy</h2>
-                    <p class="sahde_color">Revitalize your under-eye area with our specialized dark circle therapy at Tripura Clinics. Our tailored treatments target pigmentation and thinning skin, restoring a refreshed and youthful appearance. Using advanced techniques like skin boosters, chemical peels, and Platelet-Rich Plasma (PRP) therapy, we hydrate the skin and stimulate collagen production for long-lasting results. Say goodbye to tired-looking eyes with our customized dark circle therapy at Tripura Clinics. Schedule your consultation today for a refreshed and rejuvenated look.</p>
-                    <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModaldarkcircles"> Schedule Now!</button>
-                    </div>
-                </div>
-               
-            </div>
-        </div>
-    </section>
-
-    <!-- Dermal Fillers -->
-    <section id="Dermal_Fillers">
-        <div class="container mt-5  div_first_con">
-            <div class="row">
-                
-                <div class="col-md-6 order-2 order-md-1">
-                    <h6 class="shedual_heading">Make a Schedule</h6>
-                    <h2 class="shedual_para">Dermal Fillers</h2>
-                    <p class="sahde_color">Achieve a rested and youthful appearance with our expertly administered dermal filler treatments at Tripura Clinics. Our skilled practitioners use premium dermal fillers to replenish lost volume under the eyes, effectively reducing the appearance of dark circles and hollowing. With natural-looking results and minimal downtime, our dermal filler treatments offer a non-surgical solution for rejuvenating tired-looking eyes.
-                    </p>
-                    <div class="btn_flex_center">
-                        <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#myModaldarkcircles"> Schedule Now!</button>
-                    </div>
-                </div>
-                <div class="col-md-6  d-flex flex-column justify-content-center order-1 order-md-2">
-                    <img src="assets/images/thermal fillers dark circles.png" class=" doc_img_one img-fluid" alt="...">
-                </div>
-            </div>
-        </div>
-    </section>
-
-  
-
-   <!-- Model  -->
-   <?php include 'modal.php' ?>
-
-    <!-- Scroll Up Button  -->
+<!-- Scroll Up Button  -->
 <button id="scrollBtn" onclick="scrollToTop()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
     <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"/>
   </svg></button>
@@ -290,11 +230,11 @@
                             <p style="font-weight: 700;" class="footer_get2">Get in touch</p>
                         </div>
                         <div class=" col-lg-6 d-flex flex-row justify-content-between order-1 order-md-1 order-lg-2">
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer active" aria-current="page" href="index.html">Home</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="about.html">About Us</a>
-                            <a  style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="service.html">Service</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="blog.html">Blog</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="contact.html">Contact</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer active" aria-current="page" href="index.php">Home</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="about.php">About Us</a>
+                            <a  style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="service.php">Service</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="blog.php">Blog</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="contact.php">Contact</a>
                         </div>
                     </div>
                     <div class="row">

@@ -59,17 +59,17 @@
       <div class="nav_bar">
           <nav class="navbar navbar-expand-lg d-none d-lg-block">
               <div class="container-fluid">
-                  <a href="index.html"><img src="assets/images/nav_logo.png" alt="nav_logo" class="img-fluid"></a>
+                  <a href="index.php"><img src="assets/images/nav_logo.png" alt="nav_logo" class="img-fluid"></a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse ms-5 row text-center" id="navbarNavAltMarkup">
                       <div class="navbar-nav col-lg-7 d-flex flex-row justify-content-between">
-                          <a style="color:#011632; font-weight: bold;" class="nav-link nav_link active" aria-current="page" href="index.html">Home</a>
-                          <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="about.html">About Us</a>
-                          <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="service.html">Service</a>
-                          <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="blog.html">Blog</a>
-                          <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="contact.html">Contact</a>
+                          <a style="color:#011632; font-weight: bold;" class="nav-link nav_link active" aria-current="page" href="index.php">Home</a>
+                          <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="about.php">About Us</a>
+                          <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="service.php">Service</a>
+                          <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="blog.php">Blog</a>
+                          <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="contact.php">Contact</a>
                       </div>
                       <div class="col-lg-2">
                          <img src="assets/images/appointimg.png" class="img-fluid"  data-bs-toggle="modal" data-bs-target="#exampleModal"/>
@@ -96,11 +96,11 @@
                   </button>
                   <div class="collapse navbar-collapse ms-5" id="navbarNavAltMarkup2">
                       <div class="navbar-nav">
-                          <a style="color:#011632; font-weight: bold;" class="nav-link nav_link active" aria-current="page" href="index.html">Home</a>
-                          <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="about.html">About Us</a>
-                          <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="service.html">Service</a>
-                          <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="blog.html">Blog</a>
-                          <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="contact.html">Contact</a>
+                          <a style="color:#011632; font-weight: bold;" class="nav-link nav_link active" aria-current="page" href="index.php">Home</a>
+                          <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="about.php">About Us</a>
+                          <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="service.php">Service</a>
+                          <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="blog.php">Blog</a>
+                          <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="contact.php">Contact</a>
                       </div>
                       <div>
                           <img src="assets/images/appointimg.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#exampleModal"/>
@@ -140,7 +140,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <a href="hair_care.html" style="text-decoration: none;font-size: 32px;"><h1 class="desease_head">Hair Care</h1></a>
+          <a href="hair_care.php" style="text-decoration: none;font-size: 32px;"><h1 class="desease_head">Hair Care</h1></a>
         </div>
       </div>
     </div>
@@ -152,7 +152,7 @@
               <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Laser Skin Reduction</h5>
               <p class="card-text">laser skin reduction offers a precise..</p>
               <div class="d-flex flex-row justify-content-end">
-                <a href="hair_care.html#laser_skin_reduction"><button class="blog_readmore"> Read more</button></a>
+                <a href="hair_care.php#laser_skin_reduction"><button class="blog_readmore"> Read more</button></a>
             </div>
             </div>
           </div>
@@ -164,7 +164,7 @@
                 <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">PRP</h5>
                 <p class="card-text">PRP therapy at Tripura Skin and Cosmetology Clinic... </p>
                 <div class="d-flex flex-row justify-content-end">
-                  <a href="hair_care.html#PRP"><button class="blog_readmore"> Read more</button></a>
+                  <a href="hair_care.php#PRP"><button class="blog_readmore"> Read more</button></a>
               </div>
               </div>
             </div>
@@ -176,7 +176,7 @@
                 <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">GFC Therapy</h5>
                 <p class="card-text">GFC Therapy is a cutting-edge treatment that...</p>
                 <div class="d-flex flex-row justify-content-end">
-                  <a href="hair_care.html#GFC_Therapy"><button class="blog_readmore"> Read more</button></a>
+                  <a href="hair_care.php#GFC_Therapy"><button class="blog_readmore"> Read more</button></a>
               </div>
               </div>
             </div>
@@ -188,7 +188,7 @@
                 <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">LED Therapy</h5>
                 <p class="card-text">LED therapy plays a crucial role in...</p>
                 <div class="d-flex flex-row justify-content-end">
-                  <a href="hair_care.html#LED_Therapy"><button class="blog_readmore"> Read more</button></a>
+                  <a href="hair_care.php#LED_Therapy"><button class="blog_readmore"> Read more</button></a>
               </div>
               </div>
             </div>
@@ -199,7 +199,7 @@
       <div class="container mt-5">
         <div class="row">
           <div class="col-12">
-            <a href="pigmentation.html" style="text-decoration: none;"><h1 class="desease_head">Pigmentation</h1></a>
+            <a href="pigmentation.php" style="text-decoration: none;"><h1 class="desease_head">Pigmentation</h1></a>
           </div>
         </div>
       </div>
@@ -211,7 +211,7 @@
               <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Pigmentation</h5>
               <p class="card-text">Experience the transformative effects of...</p>
               <div class="d-flex flex-row justify-content-end">
-                <a href="pigmentation.html#Pigmentation"><button class="blog_readmore"> Read more</button></a>
+                <a href="pigmentation.php#Pigmentation"><button class="blog_readmore"> Read more</button></a>
             </div>
             </div>
           </div>
@@ -223,7 +223,7 @@
                 <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Reduction Peels</h5>
                 <p class="card-text">Unlock the secret to smoother, more radiant...</p>
                 <div class="d-flex flex-row justify-content-end">
-                  <a href="pigmentation.html#Reduction_Peels"><button class="blog_readmore"> Read more</button></a>
+                  <a href="pigmentation.php#Reduction_Peels"><button class="blog_readmore"> Read more</button></a>
               </div>
               </div>
             </div>
@@ -235,7 +235,7 @@
                 <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Laser Brightening</h5>
                 <p class="card-text"> Our advanced laser technology precisely...</p>
                 <div class="d-flex flex-row justify-content-end">
-                  <a href="pigmentation.html#Laser_Brigthening"><button class="blog_readmore"> Read more</button></a>
+                  <a href="pigmentation.php#Laser_Brigthening"><button class="blog_readmore"> Read more</button></a>
               </div>
               </div>
             </div>
@@ -247,7 +247,7 @@
                 <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Growth Factor Concentrate</h5>
                 <p class="card-text">GFC offers therapy offers... </p>
                 <div class="d-flex flex-row justify-content-end">
-                  <a href="pigmentation.html#Growth_Factor_Concentrate"><button class="blog_readmore"> Read more</button></a>
+                  <a href="pigmentation.php#Growth_Factor_Concentrate"><button class="blog_readmore"> Read more</button></a>
               </div>
               </div>
             </div>
@@ -258,7 +258,7 @@
       <div class="container mt-5">
         <div class="row">
           <div class="col-12">
-            <a href="age_control.html" style="text-decoration: none;"><h1 class="desease_head">Age Control</h1></a>
+            <a href="age_control.php" style="text-decoration: none;"><h1 class="desease_head">Age Control</h1></a>
           </div>
         </div>
       </div>
@@ -270,7 +270,7 @@
               <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Botulinum Toxin & Fillers</h5>
               <p class="card-text">Rediscover Your Radiance at Tripura Skin.. </p>
               <div class="d-flex flex-row justify-content-end">
-                <a href="age_control.html#Botulinum_Toxin"><button class="blog_readmore"> Read more</button></a>
+                <a href="age_control.php#Botulinum_Toxin"><button class="blog_readmore"> Read more</button></a>
             </div>
             </div>
           </div>
@@ -282,7 +282,7 @@
                 <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Threadlift</h5>
                 <p class="card-text">Achieve a lifted and contoured appearance...</p>
                 <div class="d-flex flex-row justify-content-end">
-                  <a href="age_control.html#Threadlift"><button class="blog_readmore"> Read more</button></a>
+                  <a href="age_control.php#Threadlift"><button class="blog_readmore"> Read more</button></a>
               </div>
               </div>
             </div>
@@ -294,7 +294,7 @@
                 <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">HiFU</h5>
                 <p class="card-text">Rejuvenate your skin and tighten sagging tissues...</p>
                 <div class="d-flex flex-row justify-content-end">
-                  <a href="age_control.html#HiFU"><button class="blog_readmore"> Read more</button></a>
+                  <a href="age_control.php#HiFU"><button class="blog_readmore"> Read more</button></a>
               </div>
               </div>
             </div>
@@ -306,7 +306,7 @@
                 <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">MNRF</h5>
                 <p class="card-text">Transform your skin with MNRF treatment...</p>
                 <div class="d-flex flex-row justify-content-end">
-                  <a href="age_control.html#MNRF"><button class="blog_readmore"> Read more</button></a>
+                  <a href="age_control.php#MNRF"><button class="blog_readmore"> Read more</button></a>
               </div>
               </div>
             </div>
@@ -318,7 +318,7 @@
                 <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Laser Resurfacing</h5>
                 <p class="card-text">Reveal smoother, more radiant skin with Laser...</p>
                 <div class="d-flex flex-row justify-content-end">
-                  <a href="age_control.html#Laser_Resurfacing"><button class="blog_readmore"> Read more</button></a>
+                  <a href="age_control.php#Laser_Resurfacing"><button class="blog_readmore"> Read more</button></a>
               </div>
               </div>
             </div>
@@ -330,7 +330,7 @@
                 <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Antiaging Peels</h5>
                 <p class="card-text">Anti-aging peels offer numerous benefits for...</p>
                 <div class="d-flex flex-row justify-content-end">
-                  <a href="age_control.html#Antiaging_Peels"><button class="blog_readmore"> Read more</button></a>
+                  <a href="age_control.php#Antiaging_Peels"><button class="blog_readmore"> Read more</button></a>
               </div>
               </div>
             </div>
@@ -341,7 +341,7 @@
       <div class="container mt-5">
         <div class="row">
           <div class="col-12">
-            <a href="dark_circles.html" style="text-decoration: none;"><h1 class="desease_head">Dark Circles</h1></a>
+            <a href="dark_circles.php" style="text-decoration: none;"><h1 class="desease_head">Dark Circles</h1></a>
           </div>
         </div>
       </div>
@@ -353,7 +353,7 @@
               <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Skin Booster</h5>
               <p class="card-text">Combat under-eye concerns effectively...</p>
               <div class="d-flex flex-row justify-content-end">
-                <a href="dark_circles.html#Skin_Booster"><button class="blog_readmore"> Read more</button></a>
+                <a href="dark_circles.php#Skin_Booster"><button class="blog_readmore"> Read more</button></a>
             </div>
             </div>
           </div>
@@ -365,7 +365,7 @@
                 <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Chemical Peels</h5>
                 <p class="card-text">Revitalize your under-eye skin with...</p>
                 <div class="d-flex flex-row justify-content-end">
-                  <a href="dark_circles.html#Chemical_Peels"><button class="blog_readmore"> Read more</button></a>
+                  <a href="dark_circles.php#Chemical_Peels"><button class="blog_readmore"> Read more</button></a>
               </div>
               </div>
             </div>
@@ -377,7 +377,7 @@
                 <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Laser Therapy</h5>
                 <p class="card-text">Illuminate your under-eye area with Laser..</p>
                 <div class="d-flex flex-row justify-content-end">
-                  <a href="dark_circles.html#Laser_Therapy"><button class="blog_readmore"> Read more</button></a>
+                  <a href="dark_circles.php#Laser_Therapy"><button class="blog_readmore"> Read more</button></a>
               </div>
               </div>
             </div>
@@ -389,7 +389,7 @@
                 <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Platelet-Rich Plasma</h5>
                 <p class="card-text">Experience the transformative power of...</p>
                 <div class="d-flex flex-row justify-content-end">
-                  <a href="dark_circles.html#Platelet_Rich_Plasma"><button class="blog_readmore"> Read more</button></a>
+                  <a href="dark_circles.php#Platelet_Rich_Plasma"><button class="blog_readmore"> Read more</button></a>
               </div>
               </div>
             </div>
@@ -402,7 +402,7 @@
                 <p class="card-text">Our tailored treatments target pigmentation...
                 </p>
                 <div class="d-flex flex-row justify-content-end">
-                  <a href="dark_circles.html#Therapy"><button class="blog_readmore"> Read more</button></a>
+                  <a href="dark_circles.php#Therapy"><button class="blog_readmore"> Read more</button></a>
               </div>
               </div>
             </div>
@@ -414,7 +414,7 @@
                 <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Dermal Fillers</h5>
                 <p class="card-text">Achieve a rested and youthful appearance...</p>
                 <div class="d-flex flex-row justify-content-end">
-                  <a href="dark_circles.html#Dermal_Fillers"><button class="blog_readmore"> Read more</button></a>
+                  <a href="dark_circles.php#Dermal_Fillers"><button class="blog_readmore"> Read more</button></a>
               </div>
               </div>
             </div>
@@ -426,7 +426,7 @@
       <div class="container mt-5">
         <div class="row">
           <div class="col-12">
-            <a href="acne_acnescras.html" style="text-decoration: none;"><h1 class="desease_head">Acne & Acne Scars Treatment</h1></a>
+            <a href="acne_acnescras.php" style="text-decoration: none;"><h1 class="desease_head">Acne & Acne Scars Treatment</h1></a>
           </div>
         </div>
       </div>
@@ -438,7 +438,7 @@
               <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Advanced Acne Scars</h5>
               <p class="card-text">Embark on a journey to smoother skin...</p>
               <div class="d-flex flex-row justify-content-end">
-                <a href="acne_acnescras.html#Advanced_Acne_Scars"><button class="blog_readmore"> Read more</button></a>
+                <a href="acne_acnescras.php#Advanced_Acne_Scars"><button class="blog_readmore"> Read more</button></a>
             </div>
             </div>
           </div>
@@ -450,7 +450,7 @@
                 <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Microneedling</h5>
                 <p class="card-text">Microneedling is a revolutionary treatment...</p>
                 <div class="d-flex flex-row justify-content-end">
-                  <a href="acne_acnescras.html#Microneeding"><button class="blog_readmore"> Read more</button></a>
+                  <a href="acne_acnescras.php#Microneeding"><button class="blog_readmore"> Read more</button></a>
               </div>
               </div>
             </div>
@@ -462,7 +462,7 @@
                 <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Radio Frequency</h5>
                 <p class="card-text">Radiofrequency therapy offers a non-invasive...</p>
                 <div class="d-flex flex-row justify-content-end">
-                  <a href="acne_acnescras.html#Radio_Frequency"><button class="blog_readmore"> Read more</button></a>
+                  <a href="acne_acnescras.php#Radio_Frequency"><button class="blog_readmore"> Read more</button></a>
               </div>
               </div>
             </div>
@@ -474,7 +474,7 @@
                 <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Micro Therma Brasion</h5>
                 <p class="card-text">Experience the power of cutting-edge..</p>
                 <div class="d-flex flex-row justify-content-end">
-                  <a href="acne_acnescras.html#Micro_Therma_Brasion"><button class="blog_readmore"> Read more</button></a>
+                  <a href="acne_acnescras.php#Micro_Therma_Brasion"><button class="blog_readmore"> Read more</button></a>
               </div>
               </div>
             </div>
@@ -486,7 +486,7 @@
                 <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Light Therapy</h5>
                 <p class="card-text">Revitalize Your Skin with Light Therapy...</p>
                 <div class="d-flex flex-row justify-content-end">
-                  <a href="acne_acnescras.html#Light_Therapy"><button class="blog_readmore"> Read more</button></a>
+                  <a href="acne_acnescras.php#Light_Therapy"><button class="blog_readmore"> Read more</button></a>
               </div>
               </div>
             </div>
@@ -498,7 +498,7 @@
                 <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Lasers</h5>
                 <p class="card-text">Laser treatments provide a powerful solution...</p>
                 <div class="d-flex flex-row justify-content-end">
-                  <a href="acne_acnescras.html#Lasers"><button class="blog_readmore"> Read more</button></a>
+                  <a href="acne_acnescras.php#Lasers"><button class="blog_readmore"> Read more</button></a>
               </div>
               </div>
             </div>
@@ -510,7 +510,7 @@
                 <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Chemical Peels</h5>
                 <p class="card-text">chemical Peels Renew your skin and reduce...</p>
                 <div class="d-flex flex-row justify-content-end">
-                  <a href="acne_acnescras.html#Chemical_Peels"><button class="blog_readmore"> Read more</button></a>
+                  <a href="acne_acnescras.php#Chemical_Peels"><button class="blog_readmore"> Read more</button></a>
               </div>
               </div>
             </div>
@@ -520,7 +520,7 @@
       <div class="container mt-5">
         <div class="row">
           <div class="col-12">
-            <a href="glowing_skin.html" style="text-decoration: none;"><h1 class="desease_head">Glowing Skin</h1></a>
+            <a href="glowing_skin.php" style="text-decoration: none;"><h1 class="desease_head">Glowing Skin</h1></a>
           </div>
         </div>
       </div>
@@ -532,7 +532,7 @@
               <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Led Light Therapy</h5>
               <p class="card-text">Reveal your skin's natural radiance with...</p>
               <div class="d-flex flex-row justify-content-end">
-                <a href="glowing_skin.html#Led_Light_Therapy"><button class="blog_readmore"> Read more</button></a>
+                <a href="glowing_skin.php#Led_Light_Therapy"><button class="blog_readmore"> Read more</button></a>
             </div>
             </div>
           </div>
@@ -544,7 +544,7 @@
                 <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Medifacials</h5>
                 <p class="card-text">Experience the ultimate skincare luxury with our...</p>
                 <div class="d-flex flex-row justify-content-end">
-                  <a href="glowing_skin.html#Medifacials"><button class="blog_readmore"> Read more</button></a>
+                  <a href="glowing_skin.php#Medifacials"><button class="blog_readmore"> Read more</button></a>
               </div>
               </div>
             </div>
@@ -556,7 +556,7 @@
                 <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Laser Toning</h5>
                 <p class="card-text">Transform your skin with laser toning at Tripura...</p>
                 <div class="d-flex flex-row justify-content-end">
-                  <a href="glowing_skin.html#Laser_Toning"><button class="blog_readmore"> Read more</button></a>
+                  <a href="glowing_skin.php#Laser_Toning"><button class="blog_readmore"> Read more</button></a>
               </div>
               </div>
             </div>
@@ -568,7 +568,7 @@
                 <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Skin Booster</h5>
                 <p class="card-text">Refresh and revitalize your complexion with Skin...</p>
                 <div class="d-flex flex-row justify-content-end">
-                  <a href="glowing_skin.html#Skin_Booster"><button class="blog_readmore"> Read more</button></a>
+                  <a href="glowing_skin.php#Skin_Booster"><button class="blog_readmore"> Read more</button></a>
               </div>
               </div>
             </div>
@@ -580,7 +580,7 @@
                 <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Growth factor Concentrate</h5>
                 <p class="card-text">Stimulate skin...</p>
                 <div class="d-flex flex-row justify-content-end">
-                  <a href="glowing_skin.html#Growth_factor_Concentrate"><button class="blog_readmore"> Read more</button></a>
+                  <a href="glowing_skin.php#Growth_factor_Concentrate"><button class="blog_readmore"> Read more</button></a>
               </div>
               </div>
             </div>
@@ -592,7 +592,7 @@
                 <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Hydra Facial</h5>
                 <p class="card-text">Experience the ultimate in skincare indulgence with..</p>
                 <div class="d-flex flex-row justify-content-end">
-                  <a href="glowing_skin.html#Hydra_Facial"><button class="blog_readmore"> Read more</button></a>
+                  <a href="glowing_skin.php#Hydra_Facial"><button class="blog_readmore"> Read more</button></a>
               </div>
               </div>
             </div>
@@ -604,7 +604,7 @@
                 <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Vampire Facial</h5>
                 <p class="card-text">Revitalize your skin with the rejuvenating effects of .. </p>
                 <div class="d-flex flex-row justify-content-end">
-                  <a href="glowing_skin.html#Vampire_Facial"><button class="blog_readmore"> Read more</button></a>
+                  <a href="glowing_skin.php#Vampire_Facial"><button class="blog_readmore"> Read more</button></a>
               </div>
               </div>
             </div>
@@ -615,7 +615,7 @@
       <div class="container mt-5">
         <div class="row">
           <div class="col-12">
-            <a href="others.html" style="text-decoration: none;"><h1 class="desease_head">Others</h1></a>
+            <a href="others.php" style="text-decoration: none;"><h1 class="desease_head">Others</h1></a>
           </div>
         </div>
       </div>
@@ -627,7 +627,7 @@
               <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Tattoo Removal</h5>
               <p class="card-text">Say goodbye to unwanted tattoos with our..</p>
               <div class="d-flex flex-row justify-content-end">
-                <a href="others.html#Tattoo_Removal"><button class="blog_readmore"> Read more</button></a>
+                <a href="others.php#Tattoo_Removal"><button class="blog_readmore"> Read more</button></a>
             </div>
             </div>
           </div>
@@ -639,7 +639,7 @@
                 <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Stretch Marks Removal</h5>
                 <p class="card-text">Bid farewell to stretch marks with our advanced removal..</p>
                 <div class="d-flex flex-row justify-content-end">
-                  <a href="others.html#Stretch_Marks_Removal"><button class="blog_readmore"> Read more</button></a>
+                  <a href="others.php#Stretch_Marks_Removal"><button class="blog_readmore"> Read more</button></a>
               </div>
               </div>
             </div>
@@ -651,7 +651,7 @@
                 <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Keloids</h5>
                 <p class="card-text">Say goodbye to keloid scars with our specialized...</p>
                 <div class="d-flex flex-row justify-content-end">
-                  <a href="others.html#Keloids"><button class="blog_readmore"> Read more</button></a>
+                  <a href="others.php#Keloids"><button class="blog_readmore"> Read more</button></a>
               </div>
               </div>
             </div>
@@ -663,7 +663,7 @@
                 <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Far Lobe Prepair</h5>
                 <p class="card-text">Get ready for a flawless far lobe piercing experience</p>
                 <div class="d-flex flex-row justify-content-end">
-                  <a href="others.html#Far_Lobe_Prepair"><button class="blog_readmore"> Read more</button></a>
+                  <a href="others.php#Far_Lobe_Prepair"><button class="blog_readmore"> Read more</button></a>
               </div>
               </div>
             </div>
@@ -675,7 +675,7 @@
                 <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Ear Piercing</h5>
                 <p class="card-text">Experience safe and hygienic ear piercing procedures..</p>
                 <div class="d-flex flex-row justify-content-end">
-                  <a href="others.html#Ear_Piercing"><button class="blog_readmore"> Read more</button></a>
+                  <a href="others.php#Ear_Piercing"><button class="blog_readmore"> Read more</button></a>
               </div>
               </div>
             </div>
@@ -687,7 +687,7 @@
                 <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Skin Tag Removal</h5>
                 <p class="card-text">Experience safe and hygienic skin tag removal...</p>
                 <div class="d-flex flex-row justify-content-end">
-                  <a href="others.html#Skin_Tag_Removal"><button class="blog_readmore"> Read more</button></a>
+                  <a href="others.php#Skin_Tag_Removal"><button class="blog_readmore"> Read more</button></a>
               </div>
               </div>
             </div>
@@ -699,7 +699,7 @@
                 <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">HIV Treatment</h5>
                 <p class="card-text">Comprehensive care and support</p>
                 <div class="d-flex flex-row justify-content-end">
-                  <a href="others.html#HIV_Treatment"><button class="blog_readmore"> Read more</button></a>
+                  <a href="others.php#HIV_Treatment"><button class="blog_readmore"> Read more</button></a>
               </div>
               </div>
             </div>
@@ -711,7 +711,7 @@
                 <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Sexual Problems </h5>
                 <p class="card-text">Confidential treatment solutions</p>
                 <div class="d-flex flex-row justify-content-end">
-                  <a href="others.html#Sexual_Problems"><button class="blog_readmore"> Read more</button></a>
+                  <a href="others.php#Sexual_Problems"><button class="blog_readmore"> Read more</button></a>
               </div>
               </div>
             </div>
@@ -935,11 +935,11 @@
                           <p style="font-weight: 700;" class="footer_get2">Get in touch</p>
                       </div>
                       <div class=" col-lg-6 d-flex flex-row justify-content-between order-1 order-md-1 order-lg-2">
-                          <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer active" aria-current="page" href="index.html">Home</a>
-                          <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="about.html">About Us</a>
-                          <a  style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="service.html">Service</a>
-                          <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="blog.html">Blog</a>
-                          <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="contact.html">Contact</a>
+                          <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer active" aria-current="page" href="index.php">Home</a>
+                          <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="about.php">About Us</a>
+                          <a  style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="service.php">Service</a>
+                          <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="blog.php">Blog</a>
+                          <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="contact.php">Contact</a>
                       </div>
                   </div>
                   <div class="row">

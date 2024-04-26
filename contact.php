@@ -8,15 +8,8 @@
     <meta name="keywords" content="your,keywords,here">
     <meta name="author" content="Your Name">
 
-    <!-- favicon  -->
-    <link rel="icon" href="./assets/images/nav_logo.png" type="image/x-icon">
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
-     <!-- Owl Carousel CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
     <!-- Font Awesome  -->
     <script src="https://kit.fontawesome.com/742df65007.js" crossorigin="anonymous"></script>
@@ -25,6 +18,9 @@
     <link rel="icon" href="assests/images/Logo.png" type="image/x-icon">
 
     <link rel="stylesheet" href="assets/style.css">
+
+    <!-- favicon  -->
+    <link rel="icon" href="./assets/images/nav_logo.png" type="image/x-icon">
 
     <!-- For Modal links  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -42,17 +38,17 @@
         <div class="nav_bar">
             <nav class="navbar navbar-expand-lg d-none d-lg-block">
                 <div class="container-fluid">
-                    <a href="index.html"><img src="assets/images/nav_logo.png" alt="nav_logo" class="img-fluid"></a>
+                    <a href="index.php"><img src="assets/images/nav_logo.png" alt="nav_logo" class="img-fluid"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse ms-5 row text-center" id="navbarNavAltMarkup">
                         <div class="navbar-nav col-lg-7 d-flex flex-row justify-content-between">
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link active" aria-current="page" href="index.html">Home</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="about.html">About Us</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="service.html">Service</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="blog.html">Blog</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="contact.html">Contact</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link active" aria-current="page" href="index.php">Home</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="about.php">About Us</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="service.php">Service</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="blog.php">Blog</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="contact.php">Contact</a>
                         </div>
                         <div class="col-lg-2">
                            <img src="assets/images/appointimg.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#exampleModal"/>
@@ -79,11 +75,11 @@
                     </button>
                     <div class="collapse navbar-collapse ms-5" id="navbarNavAltMarkup2">
                         <div class="navbar-nav">
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link active" aria-current="page" href="index.html">Home</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="about.html">About Us</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="service.html">Service</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="blog.html">Blog</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="contact.html">Contact</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link active" aria-current="page" href="index.php">Home</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="about.php">About Us</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="service.php">Service</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="blog.php">Blog</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="contact.php">Contact</a>
                         </div>
                         <div>
                             <img src="assets/images/appointimg.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#exampleModal"/>
@@ -102,100 +98,130 @@
         </div>
     </section>
 
-    <div class="section2_blogsdetail mt-5">
+    <div class="section1 mt-5">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-8 ">
-                    <h1 class="blogs_details_heading"> "Summer Skin Care: Your Guide to Radiant Skin in the Heat" </h1>
-                    <!-- <p class="blogs_details_para">As the temperature rises, so do the challenges for maintaining healthy, radiant skin. In this blog post, we'll explore a comprehensive guide to summer skin care, tailored specifically to combat the effects of heat, humidity, and increased sun exposure.</p> -->
-                    <div class="row">
-                        <div class="col-6">
-                            <!-- <p class="blogs_details_para">March 08, 2023  5:16 AM</p> -->
-                        </div>
-                        <!-- <div class="col-6">
-                            <div class="d-flex flex-row justify-content-end">
-                                <img src="assets/images/blog_share.png" class="img-fluid"/>
-                                <img src="assets/images/blog_insta.png" class="img-fluid ms-3"/>
-                                <img src="assets/images/blog_fb.png" class="img-fluid ms-3"/>
-                                <img src="assets/images/blog_twitter.png" class="img-fluid ms-3"/>
-                            </div>
-                        </div> -->
+                <div class="col-12">
+                    <h1 class="contact_about" style="font-size: 42px;">Get in touch</h1>
+                    <div class="d-flex flex-row justify-content-center">
+                        <svg  xmlns="http://www.w3.org/2000/svg" width="326" height="13" viewBox="0 0 326 13" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.49402 10.368C14.4034 9.59066 32.5617 9.55179 81.8547 9.47405C158.827 9.35744 219.917 8.50234 236.895 7.25853C238.243 7.14193 130.347 6.28681 119.267 6.90871C101.993 7.91931 19.5012 7.06419 2.90174 5.89812C-1.81689 5.58717 -0.0473825 4.49884 3.02815 4.26562C7.83102 3.87694 20.7231 3.91581 56.0707 3.99355C80.9278 4.03242 278.689 3.13843 300.302 1.5448C312.435 0.65082 319.808 -0.165424 323.179 0.0289192C326.001 0.184395 326.044 0.65082 323.6 1.93349C321.957 2.78861 323.811 3.29391 324.99 3.52712C326.802 3.91581 326.043 5.23735 323.768 6.28681C320.693 7.72496 315.384 7.68609 317.912 6.24794C318.46 5.93699 318.586 5.15961 316.648 5.31509C311.003 5.78152 271.105 8.96876 260.278 9.51292C144.671 15.421 31.8455 11.1066 7.95741 12.5447C-0.510838 13.0889 3.36523 10.8345 7.49402 10.368Z" fill="#25B4F8"/>
+                          </svg>
                     </div>
-                    <img src="assets/images/blog1_img1.png" class="img-fluid mt-3 mb-3" style="border-radius: 50px;"/>
-                    <p class="blogs_details_para2 sahde_color mt-2">As the sun shines brighter and temperatures rise, it's essential to adapt your skincare routine to protect your skin from the harsh effects of summer. At Tripura Skin and Cosmetology Clinic, we understand the importance of maintaining healthy and glowing skin year-round. In this blog post, we'll share expert tips and highlight our services to help you achieve radiant skin this summer.</p>
-                    <!-- <p class="blogs_details_para2">Facilisi parturient lobortis lacus morbi mi in in proin. Elementum etiam aliquet magnis cursus etiam netus aliquet convallis.</p> -->
-                    <h1 class="sub_heading_blogedetails">Hydration is Key</h1>
-                    <p class="blogs_details_para2 sahde_color">The scorching summer sun can leave your skin dehydrated, leading to dullness and dryness. Ensure you drink plenty of water throughout the day to keep your skin hydrated from within.
-                    </p>
-                    <h1 class="sub_heading_blogedetails">SPF Protection</h1>
-                    <p class="blogs_details_para2 sahde_color">Shield your skin from harmful UV rays by applying a broad-spectrum sunscreen with SPF 30 or higher daily, even on cloudy days. Our clinic offers a range of sunscreen products tailored to different skin types to provide optimal protection.
-                    </p>
-                    <h1 class="sub_heading_blogedetails">Hair Care in the Sun</h1>
-                    <p class="blogs_details_para2 sahde_color">Don't forget to protect your hair from sun damage by wearing a hat or using a UV-protective hair serum. Our hair care services include treatments to repair sun-damaged hair and keep your locks healthy and vibrant.
-                    </p>
-                    <h1 class="sub_heading_blogedetails">Combat Pigmentation</h1>
-                    <p class="blogs_details_para2 sahde_color"> Excessive sun exposure can exacerbate pigmentation issues such as sunspots and melasma. Our pigmentation treatments target these concerns, helping you achieve an even and radiant complexion.</p>
-                    <h1 class="sub_heading_blogedetails">Age Control Solutions</h1>
-                    <p class="blogs_details_para2 sahde_color"> Minimize the signs of aging caused by sun exposure with our age control treatments. From anti-aging serums to rejuvenating facials, we offer personalized solutions to address your specific skin concerns.</p>
-                    <h1 class="sub_heading_blogedetails">Say Goodbye to Dark Circles</h1>
-                    <p class="blogs_details_para2 sahde_color">Lack of sleep and sun exposure can contribute to dark circles under the eyes. Our clinic offers advanced treatments such as under-eye fillers and laser therapy to reduce dark circles and restore a youthful appearance.</p>
-                    <h1 class="sub_heading_blogedetails">Banish Acne and Scars</h1>
-                    <p class="blogs_details_para2 sahde_color">Keep acne at bay with our acne control treatments, which target acne-causing bacteria and reduce inflammation. Additionally, our acne scar treatments help fade scars and improve skin texture, giving you smooth and clear skin.
-                    </p>
-                    <h1 class="sub_heading_blogedetails">Glowing Skin Secrets</h1>
-                    <p class="blogs_details_para2">Achieve a radiant complexion with our glowing skin treatments, including chemical peels, microdermabrasion, and laser facials. These treatments exfoliate dead skin cells and stimulate collagen production for healthy and luminous skin.</p>
-                    <h1 class="sub_heading_blogedetails">Conclusion</h1>
-                    <p class="blogs_details_para2">This summer, prioritize your skin's health and beauty with our expert tips and professional services at Tripura Skin and Cosmetology Clinic. Whether you're dealing with pigmentation issues, acne, or simply want to maintain a glowing complexion, we're here to help you look and feel your best all season long.</p>                   
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="d-flex flex-row">
-                        <h1 class="news_heading">Hot News</h1>
-                        <img src="assets/images/newsimg1.png" class="img-fluid ms-2 mb-2"/>
-                    </div>
-                    <div class="row">
-                        <div class="col-4 mt-2">
-                            <img src="assets/images/blogicons/1.png" class="img-fluid"/>
-                        </div>
-                        <div class="col-8 mt-2">
-                            <h1 class="blogs_details_para">New SPF breakthrough offers superior sun protection.</h1>
-                        </div>
-                        <div class="col-4 mt-2">
-                            <img src="assets/images/blogicons/2.png" class="img-fluid"/>
-                        </div>
-                        <div class="col-8 mt-2">
-                            <h1 class="blogs_details_para">Celebrities swear by natural summer skincare remedies.</h1>
-                        </div>
-                    </div>
+                    <p class="contact_para alignments">
 
-                    <div class="d-flex flex-row">
-                        <h1 class="news_heading">TRENDING NEWS</h1>
-                        <img src="assets/images/newsimg2.png" class="img-fluid ms-2 mb-2"/>
-                    </div>
-                    <div class="row">
-                        <div class="col-4 mt-2">
-                            <img src="assets/images/blogicons/3.png" class="img-fluid"/>
-                        </div>
-                        <div class="col-8 mt-2">
-                            <h1 class="blogs_details_para">DIY face mask trends for glowing summer skin.</h1>
-                        </div>
-                        <div class="col-4 mt-2">
-                            <img src="assets/images/blogicons/4.png" class="img-fluid"/>
-                        </div>
-                        <div class="col-8 mt-2">
-                            <h1 class="blogs_details_para">Rise in demand for eco-friendly sunscreen alternatives. </h1>
-                        </div>
-                        <div class="col-4 mt-2">
-                            <img src="assets/images/blogicons/5.png" class="img-fluid"/>
-                        </div>
-                        <div class="col-8 mt-2">
-                            <h1 class="blogs_details_para">Experts warn of dehydration risks in summer heat.</h1>
-                        </div>
-                    </div>
+                        Contact us today to schedule your appointment and embark on your journey to radiant skin and renewed confidence.</p>
                 </div>
-
             </div>
         </div>
     </div>
+    
+    <div class="contact_section2 mt-5 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-6 ">
+                    <div class="map d-flex flex-row justify-content-center">
+                        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d30529.17201385538!2d82.21870963476562!3d16.9673426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1713078818201!5m2!1sen!2sin" width="600" height="325" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="img-fluid"></iframe> -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3895764.2675757236!2d77.65032885000001!3d17.533401646079117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3a382971e3b046d5%3A0x8d13ea9e32b82856!2s100%20building%2C%20Rainbow%20skin%20and%20cosmetology%20clinic%2C%202-56-5%20Opposite%20Christian%20community%20hall%20Road%20no%201%2C%20centre%2C%20Shanti%20Nagar%2C%20Kakinada%2C%20Andhra%20Pradesh%20533003!3m2!1d16.9682717!2d82.24177!5e0!3m2!1sen!2sin!4v1714020206529!5m2!1sen!2sin" width="630" height="325" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="card mt-5 shadow cardsec">
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="assets/images/timing_icon.png" class="img-fluid mt-4 ms-2"/>
+                            </div>
+                            <div class="col-10">
+                                <h1 class="card-head mt-3" style="color:#011632; font-weight: bold;">Hospital Timings</h1>
+                                <p class="card-para">Monday - Saturday (9:00am to 5pm)
+                                    Sunday (Closed)</p> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mt-5 shadow cardsec">
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="assets/images/mail_icon (1).png" class="img-fluid mt-4 ms-2"/>
+                            </div>
+                            <div class="col-10">
+                                <h1 class="card-head mt-3" style="color:#011632; font-weight: bold;">Emai Address</h1>
+                                <p class="card-para">tripuraskinclinic@gmail.com</p> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mt-5 shadow cardsec">
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="assets/images/phone_icon.png" class="img-fluid mt-4 ms-2"/>
+                            </div>
+                            <div class="col-10">
+                                <h1 class="card-head mt-3" style="color:#011632; font-weight: bold;" >Phone Number</h1>
+                                <p class="card-para">+91 94930 66633</p> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mt-5 shadow cardsec">
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="assets/images/location_icon.png" class="img-fluid mt-4 ms-2"/>
+                            </div>
+                            <div class="col-10">
+                                <h1 class="card-head mt-3" style="color:#011632; font-weight: bold;" >Address</h1>
+                                <p class="card-para">2-56-5, Santhi Nagar Road No. 1, 100 Building Centre Housing Board Colony, Opp:Christian Community Hall, Kakinada.</p> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-6 form_sec ">
+                    <form action="contactform.php" method="POST">
+                        <div class="row">
+                            <div class="col-6">
+                                <label for="name" class="input_text">First name</label>
+                                <input type="text" placeholder="First name"  name="first" class="input_field"/>
+                            </div>
+                            <div class="col-6">
+                                <label for="name" class="input_text">Last name</label>
+                                <input type="text" placeholder="Last name" name="last" class="input_field"/>
+                            </div>
+                            <div class="col-12 mt-4">
+                                <label for="email" class="input_text">Email</label>
+                                <input type="email" placeholder="you@company.com" name="email" class="input_field1"/> 
+                            </div>
+                            <div class="col-12 mt-4">
+                                <label for="phone" class="input_text">Phone number</label>
+                                <input type="tel" placeholder="+91 (555) 000-0000" name="phonenumber" class="input_field1"/> 
+                            </div>
+                            <div class="col-12 mt-4">
+                                <h1 class="input_text">Select date</h1>
+                                <input type="date" placeholder="+91 (555) 000-0000" name="date" class="input_field1"/> 
+                            </div>
+                            <div class="col-12 mt-4">
+                                <h1 class="input_text">Select Category</h1>
+                                <select name="category" class="dropdown_option" >
+                                    <option value="" selected disabled>Skin Treatment</option>
+                                    <option value="Hair Care">Hair Care</option>
+                                    <option value="Pigmentation">Pigmentation</option>
+                                    <option value="Age Control">Age Control</option>
+                                    <option value="Dark Circles">Dark Circles</option>
+                                    <option value="Acne & Acne Scars Treatment">Acne & Acne Scars Treatment</option>
+                                    <option value="Glowing Skin">Glowing Skin</option>
+                                    <option value="Others">Others</option>
+                                    <!-- Add more options as needed -->
+                                  </select>
+                            </div>
+                            <div class="col-12 mt-4">
+                                <label for="message" class="input_text">Message</label><br/>
+                                <textarea id="message" name="message" rows="4" cols="50" class="messagebox"></textarea><br>
+                            </div>
+                            <div class="col-12 mt-4 d-flex flex-row justify-content-center">
+                                <input type="submit" value="Book an appointment" class="submit_button">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
 
     <!-- Model  -->
     <?php include 'modal.php' ?>
@@ -241,11 +267,11 @@
                             <p style="font-weight: 700;" class="footer_get2">Get in touch</p>
                         </div>
                         <div class=" col-lg-6 d-flex flex-row justify-content-between order-1 order-md-1 order-lg-2">
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer active" aria-current="page" href="index.html">Home</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="about.html">About Us</a>
-                            <a  style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="service.html">Service</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="blog.html">Blog</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="contact.html">Contact</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer active" aria-current="page" href="index.php">Home</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="about.php">About Us</a>
+                            <a  style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="service.php">Service</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="blog.php">Blog</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="contact.php">Contact</a>
                         </div>
                     </div>
                     <div class="row">

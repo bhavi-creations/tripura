@@ -34,22 +34,22 @@
 </head>
 
 <body>
-    <!-- nav bar -->
+    <!-- nav bar -->+
     <section>
         <div class="nav_bar">
             <nav class="navbar navbar-expand-lg d-none d-lg-block">
                 <div class="container-fluid">
-                    <a href="index.html"><img src="assets/images/nav_logo.png" alt="nav_logo" class="img-fluid"></a>
+                    <a href="index.php"><img src="assets/images/nav_logo.png" alt="nav_logo" class="img-fluid"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse ms-5 row text-center" id="navbarNavAltMarkup">
                         <div class="navbar-nav col-lg-7 d-flex flex-row justify-content-between">
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link active" aria-current="page" href="index.html">Home</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="about.html">About Us</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="service.html">Service</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="blog.html">Blog</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="contact.html">Contact</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link active" aria-current="page" href="index.php">Home</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="about.php">About Us</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="service.php">Service</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="blog.php">Blog</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="contact.php">Contact</a>
                         </div>
                         <div class="col-lg-2">
                             <img src="assets/images/appointimg.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#exampleModal" />
@@ -71,11 +71,11 @@
                     </button>
                     <div class="collapse navbar-collapse ms-5" id="navbarNavAltMarkup2">
                         <div class="navbar-nav">
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link active" aria-current="page" href="index.html">Home</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="about.html">About Us</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="service.html">Service</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="blog.html">Blog</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="contact.html">Contact</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link active" aria-current="page" href="index.php">Home</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="about.php">About Us</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="service.php">Service</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="blog.php">Blog</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="contact.php">Contact</a>
                         </div>
                         <div>
                             <img src="assets/images/appointimg.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#exampleModal" />
@@ -176,7 +176,7 @@
                             <div class="card secomd_pot shadow" style="border-top: solid #F25A29;">
                                 <div>
                                     <img class="secomd_img img-fluid" src="assets/images/home icons/1.png" style="border-radius: 50%; " alt="Image 1">
-                                    <a href="hair_care.html" style="text-decoration: none; ">
+                                    <a href="hair_care.php" style="text-decoration: none; ">
                                         <h8 class="inner_desgin_div">Hair Care</h8>
                                     </a>
                                     <p class="car_head_para">Nourish and rejuvenate your hair.
@@ -188,7 +188,7 @@
                             <div class="card secomd_pot shadow" style="border-top: solid #F25A29;">
                                 <div>
                                     <img class="secomd_img img-fluid" src="assets/images/home icons/2.png" style="border-radius: 50%;" alt="Image 1">
-                                    <a href="pigmentation.html" style="text-decoration: none;">
+                                    <a href="pigmentation.php" style="text-decoration: none;">
                                         <h8 class="inner_desgin_div">Pigmentation</h8>
                                     </a>
                                     <p class="car_head_para">Restore even skin tone naturally.
@@ -200,7 +200,7 @@
                             <div class="card secomd_pot shadow" style="border-top: solid #F25A29;">
                                 <div>
                                     <img class="secomd_img img-fluid" src="assets/images/home icons/3.png" style="border-radius: 50%;" alt="Image 1">
-                                    <a href="age_control.html" style="text-decoration: none;">
+                                    <a href="age_control.php" style="text-decoration: none;">
                                         <h8 class="inner_desgin_div">Age Control</h8>
                                     </a>
                                     <p class="car_head_para"> Rejuvenate skin for youthful..
@@ -212,7 +212,7 @@
                             <div class="card secomd_pot shadow" style="border-top: solid #F25A29;">
                                 <div>
                                     <img class="secomd_img img-fluid" src="assets/images/home icons/4.png" style="border-radius: 50%;" alt="Image 1">
-                                    <a href="dark_circles.html" style="text-decoration: none;">
+                                    <a href="dark_circles.php" style="text-decoration: none;">
                                         <h8 class="inner_desgin_div">Dark Circles</h8>
                                     </a>
                                     <p class="car_head_para">Banish under-eye shadows effectively.
@@ -224,7 +224,7 @@
                             <div class="card secomd_pot shadow" style="border-top: solid #F25A29;">
                                 <div>
                                     <img class="secomd_img img-fluid" src="assets/images/home icons/5.png" style="border-radius: 50%;" alt="Image 1">
-                                    <a href="acne_acnescras.html" style="text-decoration: none;">
+                                    <a href="acne_acnescras.php" style="text-decoration: none;">
                                         <h8 class="inner_desgin_div">Acne & Acne Scars Treatment</h8>
                                     </a>
                                     <p class="car_head_para">Clear skin with personalized solutions.
@@ -236,7 +236,7 @@
                             <div class="card secomd_pot shadow" style="border-top: solid #F25A29;">
                                 <div>
                                     <img class="secomd_img img-fluid" src="assets/images/home icons/6.png" style="border-radius: 50%;" alt="Image 1">
-                                    <a href="glowing_skin.html" style="text-decoration: none;">
+                                    <a href="glowing_skin.php" style="text-decoration: none;">
                                         <h8 class="inner_desgin_div">Glowing Skin</h8>
                                     </a>
                                     <p class="car_head_para">Achieve radiant complexion..
@@ -248,7 +248,7 @@
                             <div class="card secomd_pot shadow" style="border-top: solid #F25A29;">
                                 <div>
                                     <img class="secomd_img img-fluid" src="assets/images/home icons/7.png" style="border-radius: 50%;" alt="Image 1">
-                                    <a href="others.html" style="text-decoration: none;">
+                                    <a href="others.php" style="text-decoration: none;">
                                         <h8 class="inner_desgin_div">Others</h8>
                                     </a>
                                     <p class="car_head_para">Erase ink, smooth skin, reduce scars..
@@ -814,11 +814,11 @@
                             <p style="font-weight: 700;" class="footer_get2">Get in touch</p>
                         </div>
                         <div class=" col-lg-6 d-flex flex-row justify-content-between order-1 order-md-1 order-lg-2">
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer active" aria-current="page" href="index.html">Home</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="about.html">About Us</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="service.html">Service</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="blog.html">Blog</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="contact.html">Contact</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer active" aria-current="page" href="index.php">Home</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="about.php">About Us</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="service.php">Service</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="blog.php">Blog</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="contact.php">Contact</a>
                         </div>
                     </div>
                     <div class="row">
