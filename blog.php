@@ -55,7 +55,7 @@
                             <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="contact.html">Contact</a>
                         </div>
                         <div class="col-lg-2">
-                           <img src="assets/images/appointimg.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#myModalblogstitle"/>
+                           <img src="assets/images/appointimg.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#exampleModal"/>
                         </div>
                         <div class="col-lg-3">
                             <button class="btn btn-primary nav_btn"><svg xmlns="http://www.w3.org/2000/svg" width="17"
@@ -86,7 +86,7 @@
                             <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="contact.html">Contact</a>
                         </div>
                         <div>
-                            <img src="assets/images/appointimg.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#myModalblogstitle"/>
+                            <img src="assets/images/appointimg.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#exampleModal"/>
                         </div>
                         <div class="my-2">
                             <button class="btn btn-primary nav_btn"><svg xmlns="http://www.w3.org/2000/svg" width="17"
