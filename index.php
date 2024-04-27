@@ -309,7 +309,7 @@
         <div class="container mt-5  div_first_con">
             <div class="row">
                 <div class="col-md-6  d-flex flex-column justify-content-center ">
-                    <img src="assets/images/consultance.png" class=" doc_img_one img-fluid" alt="...">
+                    <img src="assets/images/2.png" class=" doc_img_one img-fluid" alt="...">
 
                 </div>
                 <div class="col-md-6 d-flex flex-column justify-content-between">
@@ -403,7 +403,7 @@
 
 
                 <div class="col-md-6  d-flex flex-column justify-content-center order-1 order-md-2">
-                    <img src="assets/images/consultance22.png" class=" doc_img_one img-fluid" alt="...">
+                    <img src="assets/images/3.png" class=" doc_img_one img-fluid" alt="...">
 
                 </div>
             </div>
