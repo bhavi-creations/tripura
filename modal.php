@@ -72,22 +72,22 @@
                                                         </clipPath>
                                                     </defs>
                                                 </svg></span>
-                                            <input type="text" class="form-control" placeholder="Type Your Name" name="name" aria-label="Username" aria-describedby="basic-addon1">
+                                            <input type="text" class="form-control" placeholder="Type Your Name" name="name" aria-label="Username" aria-describedby="basic-addon1" required>
                                         </div>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text" id="basic-addon1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                                     <path d="M21.4031 16.6521V19.4573C21.4042 19.7177 21.3508 19.9754 21.2465 20.2141C21.1422 20.4527 20.9892 20.6668 20.7973 20.8429C20.6054 21.0189 20.3788 21.153 20.1322 21.2364C19.8855 21.3198 19.6241 21.3508 19.3647 21.3274C16.4874 21.0147 13.7235 20.0315 11.2952 18.4568C9.03593 17.0211 7.12047 15.1057 5.68485 12.8464C4.10459 10.4071 3.12116 7.62975 2.81423 4.7395C2.79086 4.48093 2.82159 4.22032 2.90446 3.97427C2.98733 3.72823 3.12053 3.50213 3.29556 3.31038C3.4706 3.11863 3.68365 2.96543 3.92114 2.86053C4.15863 2.75563 4.41536 2.70132 4.67499 2.70108H7.48016C7.93394 2.69661 8.37387 2.85731 8.71795 3.15321C9.06202 3.44911 9.28676 3.86003 9.35027 4.30937C9.46867 5.20709 9.68824 6.08853 10.0048 6.93688C10.1306 7.27156 10.1578 7.63529 10.0833 7.98496C10.0087 8.33464 9.83543 8.65562 9.58403 8.90985L8.39651 10.0974C9.72761 12.4383 11.6659 14.3766 14.0068 15.7077L15.1944 14.5202C15.4486 14.2688 15.7696 14.0955 16.1192 14.0209C16.4689 13.9464 16.8327 13.9736 17.1673 14.0994C18.0157 14.416 18.8971 14.6355 19.7948 14.7539C20.2491 14.818 20.6639 15.0468 20.9604 15.3968C21.2569 15.7468 21.4145 16.1935 21.4031 16.6521Z" stroke="#AFAFAF" stroke-width="1.40258" stroke-linecap="round" stroke-linejoin="round" />
                                                 </svg></span>
-                                            <input type="text" class="form-control" placeholder="Phone number" name="phonenumber" aria-label="Username" aria-describedby="basic-addon1">
+                                            <input type="text" class="form-control" placeholder="Phone number" name="phonenumber" aria-label="Username" aria-describedby="basic-addon1" required>
                                         </div>
                                         <!-- <select type="text" class="form-control my-4" placeholder=" "> -->
-                                        <select name="category" class="form-control my-4">
+                                        <select name="category" class="form-control my-4" required>
                                             <option value="Select Category">Select Category</option>
                                             <option value="Skin care">Skin care</option>
                                             <option value="Mind Care">Mind Care</option>
                                             <option value="Poly Clinic">Poly Clinic</option>
                                         </select>
-                                        <input type="date" class="form-control my-4" placeholder="Select Date" name="date">
+                                        <input type="date" class="form-control my-4" placeholder="Select Date" name="date" required>
                                         <button type="submit" class="btn btn-primary col-12 form-control">submit</button>
 
                                     </form>

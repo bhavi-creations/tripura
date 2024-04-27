@@ -43,7 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <p><strong>Email:</strong><br> $email</p>
             <p><strong>Strong :</strong> $date</p>
             <p><strong>Category :</strong> $category</p>
-            <p><strong>Message:</strong><br>$message</p>
+            <p><strong>Message:</strong>$message</p>
         
            ";
 

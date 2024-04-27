@@ -175,27 +175,27 @@
                         <div class="row">
                             <div class="col-6">
                                 <label for="name" class="input_text">First name</label>
-                                <input type="text" placeholder="First name"  name="first" class="input_field"/>
+                                <input type="text" placeholder="First name"  name="first" class="input_field" required/>
                             </div>
                             <div class="col-6">
                                 <label for="name" class="input_text">Last name</label>
-                                <input type="text" placeholder="Last name" name="last" class="input_field"/>
+                                <input type="text" placeholder="Last name" name="last" class="input_field"  required/>
                             </div>
                             <div class="col-12 mt-4">
                                 <label for="email" class="input_text">Email</label>
-                                <input type="email" placeholder="you@company.com" name="email" class="input_field1"/> 
+                                <input type="email" placeholder="you@company.com" name="email" class="input_field1" required/> 
                             </div>
                             <div class="col-12 mt-4">
                                 <label for="phone" class="input_text">Phone number</label>
-                                <input type="tel" placeholder="+91 (555) 000-0000" name="phonenumber" class="input_field1"/> 
+                                <input type="tel" placeholder="+91 (555) 000-0000" name="phonenumber" class="input_field1"  required/> 
                             </div>
                             <div class="col-12 mt-4">
                                 <h1 class="input_text">Select date</h1>
-                                <input type="date" placeholder="+91 (555) 000-0000" name="date" class="input_field1"/> 
+                                <input type="date" placeholder="+91 (555) 000-0000" name="date" class="input_field1"  required/> 
                             </div>
                             <div class="col-12 mt-4">
                                 <h1 class="input_text">Select Category</h1>
-                                <select name="category" class="dropdown_option" >
+                                <select name="category" class="dropdown_option"  required >
                                     <option value="" selected disabled>Skin Treatment</option>
                                     <option value="Hair Care">Hair Care</option>
                                     <option value="Pigmentation">Pigmentation</option>
@@ -209,7 +209,7 @@
                             </div>
                             <div class="col-12 mt-4">
                                 <label for="message" class="input_text">Message</label><br/>
-                                <textarea id="message" name="message" rows="4" cols="50" class="messagebox"></textarea><br>
+                                <textarea id="message" name="message" rows="4" cols="50" class="messagebox"  required></textarea><br>
                             </div>
                             <div class="col-12 mt-4 d-flex flex-row justify-content-center">
                                 <input type="submit" value="Book an appointment" class="submit_button">
