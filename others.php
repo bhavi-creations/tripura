@@ -109,7 +109,7 @@ crossorigin="anonymous"></script>
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M7.49402 10.368C14.4034 9.59066 32.5617 9.55179 81.8547 9.47405C158.827 9.35744 219.917 8.50234 236.895 7.25853C238.243 7.14193 130.347 6.28681 119.267 6.90871C101.993 7.91931 19.5012 7.06419 2.90174 5.89812C-1.81689 5.58717 -0.0473825 4.49884 3.02815 4.26562C7.83102 3.87694 20.7231 3.91581 56.0707 3.99355C80.9278 4.03242 278.689 3.13843 300.302 1.5448C312.435 0.65082 319.808 -0.165424 323.179 0.0289192C326.001 0.184395 326.044 0.65082 323.6 1.93349C321.957 2.78861 323.811 3.29391 324.99 3.52712C326.802 3.91581 326.043 5.23735 323.768 6.28681C320.693 7.72496 315.384 7.68609 317.912 6.24794C318.46 5.93699 318.586 5.15961 316.648 5.31509C311.003 5.78152 271.105 8.96876 260.278 9.51292C144.671 15.421 31.8455 11.1066 7.95741 12.5447C-0.510838 13.0889 3.36523 10.8345 7.49402 10.368Z" fill="#25B4F8"/>
                           </svg>
                     </div>
-                    <p class="blogs_para alignments mt-2">Tattoo Removal, Stretch Marks Removal, Keloids, Far Lobe Repair, Ear Piercing, Skin Tag Removal, HIV Treatment, Sexual Problems.</p>
+                    <p class="blogs_para alignments mt-2">Tattoo Removal, Stretch Marks Removal, Keloids, Ear Lobe Repair, Ear Piercing, Skin Tag Removal, HIV Treatment, Sexual Problems.</p>
                 </div>
             </div>
         </div>
@@ -182,14 +182,14 @@ crossorigin="anonymous"></script>
                 
                 <div class="col-md-6 order-2 order-md-1">
                     <h6 class="shedual_heading">Make a Schedule</h6>
-                    <h2 class="shedual_para">Far Lobe Prepair</h2>
-                    <p class="sahde_color">Get ready for a flawless far lobe piercing experience at Tripura Clinics! Our expert piercers are dedicated to ensuring a safe and comfortable procedure for you. With strict adherence to hygiene protocols and precision techniques, you can trust us to deliver a professional and satisfying piercing experience. From choosing the perfect placement to providing aftercare instructions, we are here to make your far lobe piercing journey smooth and enjoyable. Trust Tripura Clinics for a piercing experience that combines professionalism, expertise, and care for stunning results.</p>
+                    <h2 class="shedual_para">Ear Lobe Repair</h2>
+                    <p class="sahde_color">Ear lobe repair, also known as earlobe rejuvenation or earlobe reconstruction, is a straightforward outpatient procedure performed under local anesthesia. During the procedure, our skilled plastic surgeon will carefully remove any excess tissue and reshape the earlobe to achieve a natural-looking result.</p>
                     <div class="btn_flex_center">
                         <button class="schedual_button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Schedule Now!</button>
                     </div>
                 </div>
                 <div class="col-md-6  d-flex flex-column justify-content-center order-1 order-md-2">
-                    <img src="assets/images/far lobe  large.png" class=" doc_img_one img-fluid" alt="...">
+                    <img src="assets/images/ear lobe repair.png" class=" doc_img_one img-fluid" alt="...">
                 </div>
             </div>
         </div>

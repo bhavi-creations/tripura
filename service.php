@@ -653,8 +653,8 @@
             <div class="card blog_cardss" style="border: 2px solid blue; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
               <img src="assets/images/far lobe small (1).png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Far Lobe Prepair</h5>
-                <p class="card-text">Get ready for a flawless far lobe piercing experience</p>
+                <h5 class="card-title mt-2" style="color:#011632; font-weight: bold;">Ear Lobe repair</h5>
+                <p class="card-text">Get ready for a flawless ear lobe repair experience</p>
                 <div class="d-flex flex-row justify-content-end">
                   <a href="others.php#Far_Lobe_Prepair"><button class="blog_readmore"> Read more</button></a>
               </div>
