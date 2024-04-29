@@ -125,7 +125,7 @@
                             </div>
                             <div class="col-10">
                                 <h1 class="card-head mt-3" style="color:#011632; font-weight: bold;">Hospital Timings</h1>
-                                <p class="card-para">Monday - Saturday (9:00am to 5pm)
+                                <p class="card-para">Monday - Saturday (9:00 am to 5:00 pm)
                                     Sunday (Closed)</p> 
                             </div>
                         </div>
@@ -136,7 +136,7 @@
                                 <img src="assets/images/mail_icon (1).png" class="img-fluid mt-4 ms-2"/>
                             </div>
                             <div class="col-10">
-                                <h1 class="card-head mt-3" style="color:#011632; font-weight: bold;">Emai Address</h1>
+                                <h1 class="card-head mt-3" style="color:#011632; font-weight: bold;">Email Address</h1>
                                 <p class="card-para">tripuraskinclinic@gmail.com</p> 
                             </div>
                         </div>
@@ -159,7 +159,7 @@
                             </div>
                             <div class="col-10">
                                 <h1 class="card-head mt-3" style="color:#011632; font-weight: bold;" >Address</h1>
-                                <p class="card-para">2-56-5, Santhi Nagar Road No. 1, 100 Building Centre Housing Board Colony, Opp:Christian Community Hall, Kakinada.</p> 
+                                <p class="card-para">2-56-5, Shanthi Nagar Road No. 1, 100 Building Centre Housing Board Colony, Opp:Christian Community Hall, Kakinada.</p> 
                             </div>
                         </div>
                     </div>
@@ -223,7 +223,8 @@
 <!-- Scroll Up Button  -->
 <button id="scrollBtn" onclick="scrollToTop()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
     <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"/>
-  </svg></button>
+  </svg>
+</button>
       
 <script>
     // Function to scroll to the top of the page
