@@ -75,7 +75,7 @@
             <!-- mobile nav bar -->
             <nav class="navbar navbar-expand-lg d-block d-lg-none ">
                 <div class="container-fluid">
-                    <img src="assets/images/nav_logo.png" alt="nav_logo" class="img-fluid">
+                <a href="index.php"><img src="assets/images/nav_logo.png" alt="nav_logo" class="img-fluid"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavAltMarkup2" aria-controls="navbarNavAltMarkup2" aria-expanded="false"
                         aria-label="Toggle navigation">
