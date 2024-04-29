@@ -617,7 +617,7 @@
                 </div>
                 <p class="text-muted">
                     <!-- <i class="fas fa-quote-left pe-2"></i> -->
-                    Excellent treatment and good result. I had severe acne on my face, and I tried many medicines but nothing worked. Then my friend suggested Rainbow Hospital. Now all my problems are resolved. The doctors there patiently listened to my concerns and provided the best treatment. It's a highly recommended hospital. I love it! 💜🦋💐👍
+                    Excellent treatment and good result. I had severe acne on my face, and I tried many medicines but nothing worked. Then my friend suggested Rainbow Hospital. Now all my problems are resolved. The doctors there patiently listened to my concerns and provided the best treatment. It's a highly recommended hospital. I love it!  
                 </p>
 
 
