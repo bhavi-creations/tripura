@@ -619,8 +619,6 @@
                     <!-- <i class="fas fa-quote-left pe-2"></i> -->
                     Excellent treatment and good result. I had severe acne on my face, and I tried many medicines but nothing worked. Then my friend suggested Rainbow Hospital. Now all my problems are resolved. The doctors there patiently listened to my concerns and provided the best treatment. It's a highly recommended hospital. I love it!  
                 </p>
-
-
             </div>
         </div>
         <!-- Add more items as needed -->
@@ -946,6 +944,46 @@
     </div>
 </section>
 
+    <!-- St Modal -->
+
+    <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header popup-div">
+                <button type="button" class="close popup-div-close" data-dismiss="modal" aria-label="Close" onclick="hideModal()" style="border:none;  margin-left: auto;">
+                    <span aria-hidden="true" style="color: red;">   <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+               <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+              </svg></span>
+                </button>
+            </div>
+                <div class="modal-body">
+                    <img src="assets/images/Tripura_Slider_5.jpg" class="img-fluid" alt="Full Size Image">
+                    <!-- <div class="text-center m-4">
+                        <a href="appointment.html" class="btn btn-secondary">Book Appointment</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    
+
+    <!-- Modal Scripits -->
+    <script>
+		$(document).ready(function () {
+			$('#imageModal').modal('show');
+		});
+
+        function hideModal() {
+            $('#imageModal').modal('hide');
+        }
+	</script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Modal Scripits -->
 
     <!-- whatsapp icon  -->
     <a href="https://api.whatsapp.com/send?phone=919493066633
