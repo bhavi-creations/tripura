@@ -202,7 +202,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6">
-                    <img src="assets/images/why choose (1).png" class="img-fluid" style="border-top-left-radius: 150px; border-top-right-radius: 150px;border-bottom-left-radius: 150px; border-bottom-right-radius: 150px;" />
+                    <img src="assets/images/2.png" class="img-fluid" style="border-top-left-radius: 150px; border-top-right-radius: 150px;border-bottom-left-radius: 150px; border-bottom-right-radius: 150px;" />
                 </div>
                 <div class="col-12 col-md-6 mt-5">
                     <h1 class="future_heading" style="font-size: 29px; font-weight: 500;">The Future of Skin Care,cosmetic</h1>
