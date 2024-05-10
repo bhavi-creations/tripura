@@ -82,10 +82,14 @@
                                         </div>
                                         <!-- <select type="text" class="form-control my-4" placeholder=" "> -->
                                         <select name="category" class="form-control my-4" required>
-                                            <option value="Select Category">Select Category</option>
-                                            <option value="Skin care">Skin care</option>
-                                            <option value="Mind Care">Mind Care</option>
-                                            <option value="Poly Clinic">Poly Clinic</option>
+                                            <option value="" selected disabled>Skin Treatment</option>
+                                            <option value="Hair Care">Hair Care</option>
+                                            <option value="Pigmentation">Pigmentation</option>
+                                            <option value="Age Control">Age Control</option>
+                                            <option value="Dark Circles">Dark Circles</option>
+                                            <option value="Acne & Acne Scars Treatment">Acne & Acne Scars Treatment</option>
+                                            <option value="Glowing Skin">Glowing Skin</option>
+                                            <option value="Others">Others</option>
                                         </select>
                                         <input type="date" class="form-control my-4" placeholder="Select Date" name="date" required>
                                         <button type="submit" class="btn btn-primary col-12 form-control">submit</button>
